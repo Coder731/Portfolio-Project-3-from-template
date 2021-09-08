@@ -13,3 +13,6 @@ Error present in terminal:
     - step 2: pip3 install black 
     - step 3: black run.py
     - step 4: flake8 run.py
+
+### Phase 1
+print statement is now running
