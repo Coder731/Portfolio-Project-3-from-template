@@ -14,5 +14,21 @@ Error present in terminal:
     - step 3: black run.py
     - step 4: flake8 run.py
 
+#### Error with gitpod.yml
+- gitpod.yml ms-toolsai.jupyter extension is not synced, but not added in .gitpod.yml
+- fixed by clicking on i in image in gitpod.yml to see error message, and addressing this.
+
 ### Phase 1
 print statement is now running
+
+### Phase 2
+run:
+pip3 freeze > requirements.txt
+this adds the following dependencies to the requirements.txt file:
+
+black==21.8b0
+click==8.0.1
+pathspec==0.9.0
+regex==2021.8.28
+tomli==1.2.1
+
