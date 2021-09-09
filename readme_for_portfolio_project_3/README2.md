@@ -32,3 +32,6 @@ pathspec==0.9.0
 regex==2021.8.28
 tomli==1.2.1
 
+## References
+### Tutorials
+- Board setup [Python for absolute beginners 2019 - TIC TAC TOE project (+Special Appearance!)](https://youtu.be/BHh654_7Cmw?t=562)
