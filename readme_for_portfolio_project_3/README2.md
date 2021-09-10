@@ -33,7 +33,7 @@ regex==2021.8.28
 tomli==1.2.1
 
 ## Phase 3 Board Display
-
+- Add vertical line
 
 ## Debuggimg
  ### Bug Brackets displaying on board
@@ -49,3 +49,6 @@ tomli==1.2.1
 
 ## Board setup
 - [Tic-tac-toe using Python](https://www.askpython.com/python/examples/tic-tac-toe-using-python)
+
+## Miscellaneous
+- Vertical Line [Enter "vertical bar" (or "pipe symbol") in Windows](https://apple.stackexchange.com/questions/52647/enter-vertical-bar-or-pipe-symbol-in-windows)
