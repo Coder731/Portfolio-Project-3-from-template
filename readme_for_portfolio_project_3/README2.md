@@ -60,5 +60,8 @@ tomli==1.2.1
 ## Board setup
 - [Tic-tac-toe using Python](https://www.askpython.com/python/examples/tic-tac-toe-using-python)
 
+### Print statements
+- \t [python : comma in print as "\t"](https://stackoverflow.com/a/13433069)
+
 ## Miscellaneous
 - Vertical Line [Enter "vertical bar" (or "pipe symbol") in Windows](https://apple.stackexchange.com/questions/52647/enter-vertical-bar-or-pipe-symbol-in-windows)
