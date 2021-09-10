@@ -33,7 +33,8 @@ regex==2021.8.28
 tomli==1.2.1
 
 ## Phase 3 Board Display
-- Add vertical line
+- Add vertical lines (pipes) between squares horizontally
+- Add underscores between squares vertically
 
 ## Debuggimg
  ### Bug Brackets displaying on board
