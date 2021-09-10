@@ -36,6 +36,11 @@ tomli==1.2.1
 - Add vertical lines (pipes) between squares horizontally
 - Add underscores between squares vertically
 
+## Phase 4 Display two sequential boards
+- Board A
+    - 
+- Board B
+    - 
 ## Debuggimg
  ### Bug Brackets displaying on board
  Description
