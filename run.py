@@ -13,3 +13,31 @@ print("User enter your move (1-9):")
 print(board1)
 print(board2)
 print(board3)
+
+# Add print statement
+# https://www.askpython.com/python/examples/tic-tac-toe-using-python
+
+
+def print_board(values):
+    print("\t  {}  |  {}   ".format(values[0], values[1]))
+
+
+# print_board()
+
+values = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+# Function to print Tic Tac Toe
+# def print_tic_tac_toe(values):
+print("\n")
+print('\t- - - - - - -')
+
+print("\t| {} | {} | {} |".format(values[0], values[1], values[2]))
+print('\t- - + - + - -')
+
+print("\t| {} | {} | {} |".format(values[3], values[4], values[5]))
+print('\t- - + - + - -')
+
+
+print("\t| {} | {} | {} |".format(values[6], values[7], values[8]))
+print('\t- - - - - - -')
+
+print("\n")
