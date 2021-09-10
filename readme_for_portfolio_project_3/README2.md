@@ -49,7 +49,6 @@ tomli==1.2.1
  Attempted Solution
  - Find out if board be displayed without brackets.
 
-
 ## References
 ### Tutorials
 - Board setup [Python for absolute beginners 2019 - TIC TAC TOE project (+Special Appearance!)](https://youtu.be/BHh654_7Cmw?t=562)
