@@ -10,4 +10,6 @@ board3 = [7, 8, 9]
 
 # Step 1 Check User Selection:
 print("User %d enter your move (1-9):")
-print(board)
+print(board1)
+print(board2)
+print(board3)
