@@ -42,6 +42,10 @@ tomli==1.2.1
 - Board B
     - Display user choice
 
+## ToDo
+1. Add lines and remove brackets and commas from current board
+2. Add second board
+
 ## Debuggimg
  ### Bug Brackets displaying on board
  Description
