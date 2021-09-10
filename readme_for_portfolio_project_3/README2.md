@@ -43,3 +43,6 @@ tomli==1.2.1
 ## References
 ### Tutorials
 - Board setup [Python for absolute beginners 2019 - TIC TAC TOE project (+Special Appearance!)](https://youtu.be/BHh654_7Cmw?t=562)
+
+## Board setup
+- [Tic-tac-toe using Python](https://www.askpython.com/python/examples/tic-tac-toe-using-python)
