@@ -38,9 +38,10 @@ tomli==1.2.1
 
 ## Phase 4 Display two sequential boards
 - Board A
-    - 
+    - Present choice to user
 - Board B
-    - 
+    - Display user choice
+
 ## Debuggimg
  ### Bug Brackets displaying on board
  Description
