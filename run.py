@@ -43,4 +43,102 @@ print('\t- - - - - - -')
 print("\n")
 
 
-move = input("Please enter a number from 1 to 9")
+move = input("Please enter a number from 1 to 9: ")
+if (move == 1):
+    a = "X"
+    b = "-"
+    c = "-"
+    d = "-"
+    e = "-"
+    f = "-"
+    g = "-"
+    h = "-"
+    i = "-"
+elif (move == 2):
+    a = "-"
+    b = "X"
+    c = "-"
+    d = "-"
+    e = "-"
+    f = "-"
+    g = "-"
+    h = "-"
+    i = "-"
+elif (move == 3):
+    a = "-"
+    b = "-"
+    c = "X"
+    d = "-"
+    e = "-"
+    f = "-"
+    g = "-"
+    h = "-"
+    i = "-"
+elif (move == 4):
+    a = "-"
+    b = "-"
+    c = "-"
+    d = "X"
+    e = "-"
+    f ="-"
+    g ="-"
+    h ="-"
+    i ="-"
+
+elif (move == 5):
+    a = "-"
+    b = "-"
+    c = "-"
+    d = "-"
+    e = "X"
+    f = "-"
+    g = "-"
+    h = "-"
+    i = "-"
+elif (move == 6):
+    a = "-"
+    b = "-"
+    c = "-"
+    d = "-"
+    e = "-"
+    f = "X"
+    g = "-"
+    h = "-"
+    i = "-"
+
+elif (move == 7):
+    a = "-"
+    b = "-"
+    c = "-"
+    d = "-"
+    e = "-"
+    f = "-"
+    g = "X"
+    h = "-"
+    i = "-"
+
+elif (move == 8):
+    a = "-"
+    b = "-"
+    c = "-"
+    d = "-"
+    e = "-"
+    f = "-"
+    g = "-"
+    h = "X"
+    i = "-"
+
+print("\n")
+print('\t- - - - - - -')
+
+print("\t| {} | {} | {} |".format(values[a], values[b], values[c]))
+print('\t- - + - + - -')
+
+print("\t| {} | {} | {} |".format(values[d], values[d], values[e]))
+print('\t- - + - + - -')
+
+
+print("\t| {} | {} | {} |".format(values[f], values[g], values[h]))
+print('\t- - - - - - -')
+
+print("\n")
