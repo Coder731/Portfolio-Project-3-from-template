@@ -41,3 +41,6 @@ print("\t| {} | {} | {} |".format(values[6], values[7], values[8]))
 print('\t- - - - - - -')
 
 print("\n")
+
+input(user)
+move = input("Please enter a number from 1 to 9")
