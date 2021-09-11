@@ -42,5 +42,5 @@ print('\t- - - - - - -')
 
 print("\n")
 
-input(user)
+
 move = input("Please enter a number from 1 to 9")
