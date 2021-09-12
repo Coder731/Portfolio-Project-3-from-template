@@ -57,3 +57,103 @@ Requirement already satisfied: pyflakes<2.4.0,>=2.3.0 in /home/gitpod/.pyenv/ver
         - [npm internal/modules/cjs/loader.js:883 throw err; ^ Error ...](https://github.com/nodejs/node/issues/38317)
     - result2:
         - [internal/modules/cjs/loader.js:800 throw err - Stack Overflow](https://stackoverflow.com/questions/60317962/internal-modules-cjs-loader-js800-throw-err)
+
+- From result2:
+    - as follows:
+
+    Solved Issue by checking NODE_OPTIONS
+
+    Run echo %NODE_OPTIONS% and got ts-node/register.
+
+- ran 
+    - echo %NODE_OPTIONS%
+- expected result per result2:
+    - ts-node/register
+
+- actual result:
+    - %NODE_OPTIONS%
+- note: this is the same as the original stringafter echo
+
+- next step in result2 was:
+    - to remove ts-node/register 
+        - run setx NODE_OPTIONS ""
+
+- however, as
+    - ts-node/register
+    - was not found:
+
+- question whether to run:
+    - setx NODE_OPTIONS ""
+
+- also on result2:
+
+    - as follows:
+    Try following command:
+
+    Step 1 : remove node_modules  and files and package-lock.json
+
+    Then run following command to install dependencies:
+
+    Step 2: $ rm -rf node_modules package-lock.json && npm install && npm start
+
+    Finally, run your package by following command:
+
+    npm start
+
+- run
+    - remove node_modules  and files and package-lock.json
+
+- returned:
+    - bash: remove: command not found
+
+- run
+    - pip3 install remove
+
+- 2 errors
+    ERROR: Could not find a version that satisfies the requirement remove (from versions: none)
+    ERROR: No matching distribution found for remove
+
+- searched error as string:
+    - ERROR: Could not find a version that satisfies the requirement remove (from versions: none) ERROR: No matching distribution found for remove
+
+- let result3 = 1st result of this search but 3rd in this debug sequence
+    - [Fix the pip error: Couldn't find a version that satisfies ...](https://bhch.github.io/posts/2017/04/fix-the-pip-error-couldnt-find-a-version-that-satisfies-the-requirement/)
+
+- result3
+    - one potential cause ip address issue
+        - use VPN
+        - issue persists
+        - rule out ip address issue
+
+    - another potential cause:
+        - PyPl server down
+
+            - search 
+                - how to check if PyPl server is down
+
+            - [Is Pypl.org not opening?](https://sitedownornot.org/domain/Pypl.org)
+                - Pypl.org is Up
+                - rule out PyPl server down
+
+search:
+    - pip3 install remove
+
+- let result 4 = 1st result of this search, but 4th in this debug sequence
+    - [how to cleanly uninstall my python packages with pip3 or any other way?](https://stackoverflow.com/questions/29346217/how-to-cleanly-uninstall-my-python-packages-with-pip3-or-any-other-way)
+        - mentions command:
+            - pip3 uninstall abc
+
+- instead of:
+    - using
+        - pip3 install remove
+- try
+    - using:
+        - pip3 install uninstall
+
+- error:
+    - ERROR: Could not find a version that satisfies the requirement uninstall (from versions: none)
+      ERROR: No matching distribution found for uninstall
+
+- try
+    - using:
+        - 
