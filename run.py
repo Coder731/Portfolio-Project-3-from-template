@@ -17,6 +17,7 @@ a={x: print(board[x],board[(x+1)],board[(x+2)]) for x in range(0,8,3)}
 
 # Step 1 Check User Selection:
 print("User enter your move (1-9):")
+move2=input("enter choice")
 print(board1)
 print(board2)
 print(board3)
