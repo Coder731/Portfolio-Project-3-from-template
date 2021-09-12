@@ -14,3 +14,6 @@
     - npm install -g npm
 
 - Add DEVELOPMENT.md
+
+- run py
+    - cut line and indent for flask8 character count
