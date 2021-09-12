@@ -1,5 +1,6 @@
-from:
-    - see TESTING_excluded_debug.md
+continued from:
+    - "see TESTING_excluded_debug.md"
+        - in TESTING.md
 
 
 - try
