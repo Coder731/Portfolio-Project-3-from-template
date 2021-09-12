@@ -168,3 +168,63 @@ search:
 - The following code was run but resulted in errors, so was not committed, and continued testing/development/debug process from here instead.
     - code not committed (excluded) as follows:
         - see TESTING_excluded_debug.md
+
+- from:
+    - [internal/modules/cjs/loader.js:800 throw err](https://stackoverflow.com/questions/60317962/internal-modules-cjs-loader-js800-throw-err#60320834)
+        (from earlier in this debug sequence)
+    - try running
+        - rm -rf node_modules package-lock.json && npm install && npm start
+
+- returned errors and warnings at the end of process:
+    - as follows:
+        > node@16.6.1 preinstall /workspace/Portfolio-Project-3-from-template/node_modules/node
+        > node installArchSpecificPackage
+
+        + node-linux-x64@16.6.1
+        added 1 package in 1.934s
+        found 0 vulnerabilities
+
+
+        > node-pty@0.10.1 install /workspace/Portfolio-Project-3-from-template/node_modules/node-pty
+        > node scripts/install.js
+
+        (node:2581) [DEP0150] DeprecationWarning: Setting process.config is deprecated. In the future the property will be read-only.
+        (Use `node --trace-deprecation ...` to show where the warning was created)
+        make: Entering directory '/workspace/Portfolio-Project-3-from-template/node_modules/node-pty/build'
+        CXX(target) Release/obj.target/pty/src/unix/pty.o
+        ../src/unix/pty.cc: In function ‘void pty_after_waitpid(uv_async_t*)’:
+        ../src/unix/pty.cc:512:43: warning: ‘void* memset(void*, int, size_t)’ writing to an object of type ‘class Nan::Persistent<v8::Function>’ with no trivial copy-assignment [-Wclass-memaccess]
+        512 |   memset(&baton->cb, -1, sizeof(baton->cb));
+            |                                           ^
+        In file included from ../../nan/nan.h:407,
+                        from ../src/unix/pty.cc:20:
+        ../../nan/nan_persistent_12_inl.h:12:40: note: ‘class Nan::Persistent<v8::Function>’ declared here
+        12 | template<typename T, typename M> class Persistent :
+            |                                        ^~~~~~~~~~
+        In file included from ../../nan/nan.h:58,
+                        from ../src/unix/pty.cc:20:
+        ../src/unix/pty.cc: At global scope:
+        /home/gitpod/.cache/node-gyp/16.6.1/include/node/node.h:806:43: warning: cast between incompatible function types from ‘void (*)(Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE)’ {aka ‘void (*)(v8::Local<v8::Object>)’} to ‘node::addon_register_func’ {aka ‘void (*)(v8::Local<v8::Object>, v8::Local<v8::Value>, void*)’} [-Wcast-function-type]
+        806 |       (node::addon_register_func) (regfunc),                          \
+            |                                           ^
+        /home/gitpod/.cache/node-gyp/16.6.1/include/node/node.h:840:3: note: in expansion of macro ‘NODE_MODULE_X’
+        840 |   NODE_MODULE_X(modname, regfunc, NULL, 0)  // NOLINT (readability/null_usage)
+            |   ^~~~~~~~~~~~~
+        ../src/unix/pty.cc:734:1: note: in expansion of macro ‘NODE_MODULE’
+        734 | NODE_MODULE(pty, init)
+            | ^~~~~~~~~~~
+        SOLINK_MODULE(target) Release/obj.target/pty.node
+        COPY Release/pty.node
+        make: Leaving directory '/workspace/Portfolio-Project-3-from-template/node_modules/node-pty/build'
+
+        > node-pty@0.10.1 postinstall /workspace/Portfolio-Project-3-from-template/node_modules/node-pty
+        > node scripts/post-install.js
+
+        npm notice created a lockfile as package-lock.json. You should commit this file.
+        added 12 packages from 20 contributors and audited 12 packages in 6.769s
+        found 4 vulnerabilities (3 low, 1 high)
+        run `npm audit fix` to fix them, or `npm audit` for details
+        npm ERR! missing script: start
+
+        npm ERR! A complete log of this run can be found in:
+        npm ERR!     /home/gitpod/.npm/_logs/2021-09-12T19_20_59_020Z-debug.log
