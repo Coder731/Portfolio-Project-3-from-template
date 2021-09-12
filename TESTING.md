@@ -164,3 +164,7 @@ search:
 - error:
     - bash: uninstall: command not found
         - 
+
+- The following code was run but resulted in errors, so was not committed, and continued testing/development/debug process from here instead.
+    - code not committed (excluded) as follows:
+        - see TESTING_excluded_debug.md
