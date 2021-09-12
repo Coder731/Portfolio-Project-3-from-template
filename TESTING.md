@@ -28,7 +28,7 @@ Requirement already satisfied: pyflakes<2.4.0,>=2.3.0 in /home/gitpod/.pyenv/ver
 - Error:
     - in terminal:
         - Error as follows:
-        
+
         internal/modules/cjs/loader.js:883
         throw err;
         ^
@@ -49,3 +49,11 @@ Requirement already satisfied: pyflakes<2.4.0,>=2.3.0 in /home/gitpod/.pyenv/ver
         code: 'MODULE_NOT_FOUND',
         requireStack: [ '/workspace/Portfolio-Project-3-from-template/index.js' ]
         }
+
+- Next step:
+    - search part of error as string:
+        - internal/modules/cjs/loader.js:883 throw err; ^ Error: Cannot find module 'total4' Require stack:
+    - result1:
+        - [npm internal/modules/cjs/loader.js:883 throw err; ^ Error ...](https://github.com/nodejs/node/issues/38317)
+    - result2:
+        - [internal/modules/cjs/loader.js:800 throw err - Stack Overflow](https://stackoverflow.com/questions/60317962/internal-modules-cjs-loader-js800-throw-err)
