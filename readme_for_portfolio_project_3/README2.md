@@ -98,14 +98,3 @@ Attempted Solution:
 ## Flake Reference
 - [](https://pypi.org/project/flake8/)
 
-for commit
-
-Keywordds Learn Complex Debug Bug README2 run py
-
-Trying to debug 2 Problems highlighted by IDE
-flake8 
-and
-invalid syntax
-
-
-README2 Documenting Problems and attempted solution

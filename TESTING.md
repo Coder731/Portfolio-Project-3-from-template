@@ -14,3 +14,5 @@ Requirement already satisfied: pycodestyle<2.8.0,>=2.7.0 in /home/gitpod/.pyenv/
 Requirement already satisfied: mccabe<0.7.0,>=0.6.0 in /home/gitpod/.pyenv/versions/3.8.11/lib/python3.8/site-packages (from flake8) (0.6.1)
 
 Requirement already satisfied: pyflakes<2.4.0,>=2.3.0 in /home/gitpod/.pyenv/versions/3.8.11/lib/python3.8/site-packages (from flake8) (2.3.1)
+
+- [](https://stackoverflow.com/questions/49270195/how-to-config-flake8-for-python-2-and-python-3-projects)
