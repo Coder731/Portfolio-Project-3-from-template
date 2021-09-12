@@ -2,11 +2,16 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
-
+# Credit Comment: 
+# https://youtu.be/BHh654_7Cmw?t=562
 # Step 0 Build Board
 board1 = [1, 2, 3]
 board2 = [4, 5, 6]
 board3 = [7, 8, 9]
+
+board = ["[ ]", "[ ]", "[ ]",
+         "[ ]", "[ ]", "[ ]",
+         "[ ]", "[ ]", "[ ]"]
 
 # Step 1 Check User Selection:
 print("User enter your move (1-9):")
@@ -155,9 +160,11 @@ print('\t- - - - - - -')
 
 print("\n")
 
-while True:
-    move = input()
-    if not move.isdigit():
-        continue
-    else:
+# while True:
+#     move = input()
+#     if not move.isdigit():
+#         continue
+#     else:
+
+
 # the input is a digit and we can move on
