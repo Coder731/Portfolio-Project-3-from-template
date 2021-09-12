@@ -53,6 +53,32 @@ tomli==1.2.1
  Attempted Solution
  - Find out if board be displayed without brackets.
 
+### Complex Bug
+Keywords for Error:
+- Flake Error with Syntax Error with conversion of values List to Dictionary 
+
+Flake Error:
+Erorr Message:
+SyntaxError: invalid syntax
+Erorr Detail:
+- {
+	"resource": "/workspace/Portfolio-Project-3-from-template/run.py",
+	"owner": "python",
+	"code": "E999",
+	"severity": 8,
+	"message": "SyntaxError: invalid syntax",
+	"source": "flake8",
+	"startLineNumber": 27,
+	"startColumn": 12,
+	"endLineNumber": 27,
+	"endColumn": 12
+}
+Error Further Information:
+- Error appears in Problems Section of Gitpod/VSCode IDE beside  Output and Terminal tabs
+
+Attempted Solution:
+- Searched error
+- 
 ## References
 ### Tutorials
 - Board setup [Python for absolute beginners 2019 - TIC TAC TOE project (+Special Appearance!)](https://youtu.be/BHh654_7Cmw?t=562)
@@ -68,3 +94,18 @@ tomli==1.2.1
 
 ## TicTacToe Reference
 - [The Classic Tic-Tac-Toe Game in Python 3](https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874)
+
+## Flake Reference
+- [](https://pypi.org/project/flake8/)
+
+for commit
+
+Keywordds Learn Complex Debug Bug README2 run py
+
+Trying to debug 2 Problems highlighted by IDE
+flake8 
+and
+invalid syntax
+
+
+README2 Documenting Problems and attempted solution

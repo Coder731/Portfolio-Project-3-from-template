@@ -24,7 +24,7 @@ def print_board(values):
 
 # print_board()
 
-values = [a:1, b:2, c:3, d:4, e:5, f:6, g:7 h:8, i:9]
+values = {"a":1, "b":2, "c":3, "d":4, "e":5, "f":6, "g":7 "h":8, "i":9}
 # Function to print Tic Tac Toe
 # def print_tic_tac_toe(values):
 print("\n")
@@ -153,3 +153,10 @@ print("\t| {} | {} | {} |".format(values[f], values[g], values[h]))
 print('\t- - - - - - -')
 
 print("\n")
+
+while True:
+    move = input()
+    if not move.isdigit():
+        continue
+    else:
+# the input is a digit and we can move on
