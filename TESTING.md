@@ -156,4 +156,11 @@ search:
 
 - try
     - using:
+        - instead of earlier command:
+            - remove node_modules  and files and package-lock.json
+        - try using:
+            - uninstall node_modules  and files and package-lock.json
+
+- error:
+    - bash: uninstall: command not found
         - 
