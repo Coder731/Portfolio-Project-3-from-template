@@ -1,5 +1,5 @@
 continued from:
-    - "see TESTING_excluded_debug.md"
+    - "see assets/documentation/TESTING_excluded_debug_files/TESTING_excluded_debug.md"
         - in TESTING.md
 
 
