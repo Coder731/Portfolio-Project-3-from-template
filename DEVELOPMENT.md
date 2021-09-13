@@ -67,7 +67,7 @@ Solved Using:
         - create function to switch symbol per player
         - use a space in a string for cells on table
 
-Game working
+- Game working
     - Issues
         - Consider Adding Basic Logic for Single Player
         - Add logic to tell:
@@ -77,4 +77,6 @@ Game working
         - Add logic for strategy
             - If two in a row block third
             - Block one square beside opponent symbol
-            
+
+- Add run5 py
+    - Remove comments for ease of readability
