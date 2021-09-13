@@ -12,6 +12,7 @@ def take_user_choice():
     move = int(input('Enter number between 1-9'))
     if not move or move < 1 or move > 9:
         print('Invalid input')
+        return take_user_choice()
 
 
 # function takes username and checks that
@@ -20,9 +21,9 @@ def take_user_choice():
 # entering a name:
 def take_user_name_input():
     name = input("Enter Name ")
-    if not name:
-        return take_user_name_input()
-    else:
+    if not name:  # activated if nothing entered for name
+        return take_user_name_input()  # if no name, function re-calls self
+    else:  # activated if name IS entered
         return name
 
 
