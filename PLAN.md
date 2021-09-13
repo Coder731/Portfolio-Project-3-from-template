@@ -14,5 +14,11 @@ use code:
 
 ## Deprecated: Next Step: present board
 
-## This Step:
+## Deprecated Step 1: This Step:
 Change first Square of board to an X on user input
+
+## This Step:
+Check if board is full
+
+## Next Step:
+add logic for three in a line (row/col/diagonal)
