@@ -8,6 +8,9 @@ board = [
     ]
 
 
+player_symbol = 'O'  # initiate player_symbol variable
+
+
 def is_game_over():
     # Check for 3 in a row horizontally
     # Check for 3 in a column vertically
@@ -46,11 +49,22 @@ def take_user_choice():
     return move
 
 
+def change_player_symbol():
+    global player_symbol  # use global keyword to use player_symbol
+    if player_symbol == 'X':  # checks who last player was
+        return 'O'  # Take turns. Swaps X to O
+    else:
+        return 'X'  # If last go was not X this go is
+
+
 def start_game():
+    global player_symbol, board
     while not is_game_over():
         print_board()
+        player_symbol = change_player_symbol()
         user_choice = take_user_choice()
         (row, col) = get_row_col_from_cell(user_choice)
+        board[row][col] = player_symbol
 
 
 # function takes username and checks that
