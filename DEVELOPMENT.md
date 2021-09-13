@@ -21,7 +21,7 @@
 ## Get terminal user input working
 
 Used code from https://techeplanet.com/python-read-input-from-terminal-stdin/ to test whether problem with typing in terminal was to do with configuration or code.
-Code added:
+Code added (to run.py):
     name = input("Enter Name ")
     print("Name entered is : ",name)
     print(type(name))
