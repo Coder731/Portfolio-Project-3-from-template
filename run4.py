@@ -8,11 +8,29 @@ board = [
     ]
 
 
+def is_game_over():
+    # Check for 3 in a row horizontally
+    # Check for 3 in a column vertically
+    # Check for 3 in a line diagonally
+    return False  # Allows game to continue
+
+
+def print_board():
+    for row in board:  # iterate over board using row counter
+        print(('---').join(row))  # use join method with spacer
+
+
 def take_user_choice():
     move = int(input('Enter number between 1-9'))
     if not move or move < 1 or move > 9:
         print('Invalid input')
         return take_user_choice()
+
+
+def start_game():
+    while not is_game_over():
+        print_board()
+        user_choice = take_user_choice()
 
 
 # function takes username and checks that
