@@ -14,10 +14,12 @@ print(type(name))
 while True:
     move = input()
     if not move.isdigit():
-        continue# if the user does not enter a digit, continue asking user for move # Note will have to check if in range also [ ]
-        else:
-            PRINT("thank you for inputing a digit")
-            break
+        # if the user does not enter a digit, continue asking user
+        # for move # Note will have to check if in range also [ ]
+        continue
+    else:
+        print("thank you for inputing a digit")
+        break
 
 # Credit Comment:
 # https://youtu.be/BHh654_7Cmw?t=562
