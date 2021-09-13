@@ -2,6 +2,12 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
+# https://techeplanet.com/python-read-input-from-terminal-stdin/
+name = input("Enter Name ")
+print("Name entered is : ",name)
+print(type(name))
+
+
 # Credit Comment:
 # https://youtu.be/BHh654_7Cmw?t=562
 # Step 0 Build Board
