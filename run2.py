@@ -5,9 +5,7 @@
 # testing terminal input
 # Credit Comment
 # https://techeplanet.com/python-read-input-from-terminal-stdin/
-name = input("Enter Name ")
-print("Name entered is : ", name)
-print(type(name))
+
 
 # Add code to check if integer is used, using a while loop:
 
