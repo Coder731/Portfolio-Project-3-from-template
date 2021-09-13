@@ -6,7 +6,7 @@
 # Credit Comment
 # https://techeplanet.com/python-read-input-from-terminal-stdin/
 name = input("Enter Name ")
-print("Name entered is : ",name)
+print("Name entered is : ", name)
 print(type(name))
 
 
