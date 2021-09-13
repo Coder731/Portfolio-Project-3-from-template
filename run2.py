@@ -102,5 +102,5 @@ print('\t- - - - - - -')
 
 print("\n")
 
-# Ne3w section:
+# New section:
 print("Trying to reassign values[\"a\"]")
