@@ -7,9 +7,12 @@ this would created nested while loops
 
 Consider player 1 player 2
 
-## This Step: Add assignment for incorporating user choice into board
+## Deprecated: This Step: Add assignment for incorporating user choice into board
 
 use code:
     values["a"] = the_new_value
 
-## Next Step: present board
+## Deprecated: Next Step: present board
+
+## This Step:
+Change first Square to an X on user input
