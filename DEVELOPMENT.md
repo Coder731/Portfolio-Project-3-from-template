@@ -18,6 +18,9 @@
 - run py
     - cut line and indent for flask8 character count
 
+## Step completed previously
+Ensure keys are strings for dictionaries
+
 ## Get terminal user input working
 
 Used code from https://techeplanet.com/python-read-input-from-terminal-stdin/ to test whether problem with typing in terminal was to do with configuration or code.
@@ -34,5 +37,3 @@ Conclusion:
 
 Add code to check if integer is used, using a while loop.
 
-## Step completed
-Ensure keys are strings for dictionaries
