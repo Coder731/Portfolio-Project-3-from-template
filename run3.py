@@ -7,13 +7,13 @@ board_to_present_choice1 = [1, 2, 3]
 board_to_present_choice2 = [4, 5, 6]
 board_to_present_choice3 = [7, 8, 9]
 
-print("[ " + str(board_to_present_choice1[0]),
+print(board_to_present_choice1[0]),
       board_to_present_choice1[1],
       board_to_present_choice1[2])
-print("[ " + strboard_to_present_choice2[0],
+print(board_to_present_choice2[0],
       board_to_present_choice2[1],
       board_to_present_choice2[2])
-print("[ " + strboard_to_present_choice3[0],
+print(board_to_present_choice3[0],
       board_to_present_choice3[1],
       board_to_present_choice3[2])
 
