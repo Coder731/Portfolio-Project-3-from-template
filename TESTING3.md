@@ -12,3 +12,7 @@ Unused variable 'col'
 - Currently, 
     - When program run4 py runs,
         - does not return anything after user name
+- Root Cause:
+    - start_game function not called
+- Solution:
+    - call start_game function in init_game function

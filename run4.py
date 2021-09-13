@@ -84,6 +84,7 @@ def take_user_name_input():
 def init_game():
     name = take_user_name_input()
     print("Name entered is : ", name)
+    start_game()  # Call start_game function to start game
 
 
 # call function to initialise game
