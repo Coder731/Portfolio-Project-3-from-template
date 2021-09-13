@@ -37,3 +37,23 @@ Conclusion:
 
 Add code to check if integer is used, using a while loop.
 
+
+## Bug KeyError: 0
+Solved Using:
+- https://replit.com/~
+- https://pythontutor.com/
+
+- Code causing error:
+    values = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5,
+                "f": 6, "g": 7, "h": 8, "i": 9}
+
+    print("\t| {} | {} | {} |".format(values[0], values[1], values[2]))
+
+- Corrected Code used:
+    values = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5,
+                "f": 6, "g": 7, "h": 8, "i": 9}
+
+    print("\t| {} | {} | {} |".format(values["a"], values["b"], values["c"]))
+
+- Solution:
+    - Change values key from 0 to "a" for first key
