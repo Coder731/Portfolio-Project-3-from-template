@@ -106,4 +106,3 @@ print("\n")
 print("Trying to reassign values[\"a\"]")
 values["a"] = "[ X ]"
 print(values["a"])
-print("[ " + values["a"] + " ]")
