@@ -66,3 +66,15 @@ Solved Using:
         - use row and column 
         - create function to switch symbol per player
         - use a space in a string for cells on table
+
+Game working
+    - Issues
+        - Consider Adding Basic Logic for Single Player
+        - Add logic to tell:
+            - if game is over
+                - if board is full
+                - if three in a row
+        - Add logic for strategy
+            - If two in a row block third
+            - Block one square beside opponent symbol
+            
