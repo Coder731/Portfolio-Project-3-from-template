@@ -16,3 +16,7 @@ Unused variable 'col'
     - start_game function not called
 - Solution:
     - call start_game function in init_game function
+- Effect: game runs
+
+## Bug2
+- Game does not know when board is full
