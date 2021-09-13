@@ -15,4 +15,4 @@ use code:
 ## Deprecated: Next Step: present board
 
 ## This Step:
-Change first Square to an X on user input
+Change first Square of board to an X on user input
