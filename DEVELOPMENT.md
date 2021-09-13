@@ -29,3 +29,7 @@ Result:
     - Works
 Conclusion:
     - Since this test code worked, the previous code is at fault.
+
+## Next step
+
+Add code to check if integer is used, using a while loop.
