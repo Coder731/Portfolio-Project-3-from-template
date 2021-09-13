@@ -8,6 +8,12 @@ board = [
     ]
 
 
+def take_user_choice():
+    move = int(input('Enter number between 1-9'))
+    if not move or move < 1 or move > 9:
+        print('Invalid input')
+
+
 # function takes username and checks that
 # name was not left blank
 # by pressing enter without
