@@ -7,3 +7,8 @@ Unused variable 'user_choice'
 Unused variable 'row'
 
 Unused variable 'col'
+
+## Bug
+- Currently, 
+    - When program run4 py runs,
+        - does not return anything after user name
