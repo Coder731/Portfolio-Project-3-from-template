@@ -6,3 +6,4 @@ __pycache__/
 *.py[cod]
 node_modules/
 .github/
+rough_work_for_commit.txt

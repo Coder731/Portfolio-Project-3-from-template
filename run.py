@@ -12,7 +12,7 @@ print(type(name))
 # Add code to check if integer is used, using a while loop:
 
 while True:
-    move = input()
+    move = input('input number from 1-9 here : ')
     if not move.isdigit():
         # if the user does not enter a digit, continue asking user
         # for move # Note will have to check if in range also [ ]
