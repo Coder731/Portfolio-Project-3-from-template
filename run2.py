@@ -90,7 +90,7 @@ print(values["a"])
 print("\n")
 print('\t- - - - - - -')
 
-print("\t| {} | {} | {} |".format(values["a"], values["b"], values["c"]))
+print("\t| test{} | {} | {} |".format(values["a"], values["b"], values["c"]))
 print('\t- - + - + - -')
 
 print("\t| {} | {} | {} |".format(values["d"], values["d"], values["e"]))
