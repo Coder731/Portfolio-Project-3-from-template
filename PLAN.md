@@ -6,3 +6,7 @@ this would created nested while loops
     or remove asking for user name
 
 Consider player 1 player 2
+
+## This Step: Add assignment for incorporating user choice into board
+
+## Next Step: present board
