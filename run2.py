@@ -101,3 +101,6 @@ print("\t| {} | {} | {} |".format(values["f"], values["g"], values["h"]))
 print('\t- - - - - - -')
 
 print("\n")
+
+# Ne3w section:
+print("Trying to reassign values[\"a\"]")
