@@ -33,3 +33,6 @@ Conclusion:
 ## Next step
 
 Add code to check if integer is used, using a while loop.
+
+## Step completed
+Ensure keys are strings for dictionaries
