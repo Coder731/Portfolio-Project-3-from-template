@@ -1,6 +1,3 @@
-# board is a list of lists
-# each row is a nested list
-# each cell is blank space
 board = [
         [' ', ' ', ' '],
         [' ', ' ', ' '],
@@ -8,7 +5,7 @@ board = [
     ]
 
 
-player_symbol = 'O'  # initiate player_symbol variable
+player_symbol = 'O'
 
 
 def is_game_over():
@@ -19,8 +16,8 @@ def is_game_over():
 
 
 def print_board():
-    for row in board:  # iterate over board using row counter
-        print(('---').join(row))  # use join method with spacer
+    for row in board:
+        print(('---').join(row))
 
 
 def get_row_col_from_cell(cell):
@@ -30,12 +27,12 @@ def get_row_col_from_cell(cell):
 
 
 def is_occupied(move):
-    global board  # must use global keyword using board variable in block scope
+    global board
     (row, col) = get_row_col_from_cell(move)
-    if board[row][col] != ' ':  # check if cell is NOT empty
-        return True  # if empty cell: is_occupied returns True
+    if board[row][col] != ' ':
+        return True
     else:
-        return False  # if (taken) not empty cell: is_occupied returns False
+        return False
 
 
 def take_user_choice():
@@ -50,11 +47,11 @@ def take_user_choice():
 
 
 def change_player_symbol():
-    global player_symbol  # use global keyword to use player_symbol
-    if player_symbol == 'X':  # checks who last player was
-        return 'O'  # Take turns. Swaps X to O
+    global player_symbol
+    if player_symbol == 'X':
+        return 'O'
     else:
-        return 'X'  # If last go was not X this go is
+        return 'X'
 
 
 def start_game():
@@ -67,25 +64,18 @@ def start_game():
         board[row][col] = player_symbol
 
 
-# function takes username and checks that
-# name was not left blank
-# by pressing enter without
-# entering a name:
 def take_user_name_input():
     name = input("Enter Name ")
-    if not name:  # activated if nothing entered for name
-        return take_user_name_input()  # if no name, function re-calls self
-    else:  # activated if name IS entered
+    if not name:
+        return take_user_name_input()
+    else:
         return name
 
 
-# initialise game by calling function to take
-# and return user name then print result
 def init_game():
     name = take_user_name_input()
     print("Name entered is : ", name)
-    start_game()  # Call start_game function to start game
+    start_game()
 
 
-# call function to initialise game
 init_game()
