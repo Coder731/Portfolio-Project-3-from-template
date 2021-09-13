@@ -57,3 +57,11 @@ Solved Using:
 
 - Solution:
     - Change values key from 0 to "a" for first key
+
+
+- Mentor Call 2
+    - Received instruction on the following:
+        - separate game into functions
+        - use join method to make board display code more elegant
+        - use row and column 
+        - create function to switch symbol per player
