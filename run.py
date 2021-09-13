@@ -174,14 +174,14 @@ elif (move == 9):
 print("\n")
 print('\t- - - - - - -')
 
-print("\t| {} | {} | {} |".format(values[a], values[b], values[c]))
+print("\t| {} | {} | {} |".format(values["a"], values["b"], values["c"]))
 print('\t- - + - + - -')
 
-print("\t| {} | {} | {} |".format(values[d], values[d], values[e]))
+print("\t| {} | {} | {} |".format(values["d"], values["d"], values["e"]))
 print('\t- - + - + - -')
 
 
-print("\t| {} | {} | {} |".format(values[f], values[g], values[h]))
+print("\t| {} | {} | {} |".format(values["f"], values["g"], values["h"]))
 print('\t- - - - - - -')
 
 print("\n")
