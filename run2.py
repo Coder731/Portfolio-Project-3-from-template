@@ -85,6 +85,8 @@ if (move == 1):
     h = ["-"]
     i = ["-"]
 
+print(values["a"])
+
 print("\n")
 print('\t- - - - - - -')
 
@@ -99,12 +101,3 @@ print("\t| {} | {} | {} |".format(values["f"], values["g"], values["h"]))
 print('\t- - - - - - -')
 
 print("\n")
-
-# while True:
-#     move = input()
-#     if not move.isdigit():
-#         continue
-#     else:
-
-
-# the input is a digit and we can move on
