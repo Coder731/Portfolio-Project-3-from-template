@@ -3,7 +3,7 @@ python3 run.py
     - works
     - takes user input
 
-### Previously used (Code Runner Extension):
+### Previously used (Code Runner Extension in Visual Studio Code on gitpod):
     - Ctrl + Alt + N
         - to start program running
     - Ctrl + Alt + M
