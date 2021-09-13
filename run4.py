@@ -20,17 +20,37 @@ def print_board():
         print(('---').join(row))  # use join method with spacer
 
 
+def get_row_col_from_cell(cell):
+    col = (int(cell % 3) - 1) % 3
+    row = int((cell - 1) / 3)
+    return (row, col)
+
+
+def is_occupied(move):
+    global board  # must use global keyword using board variable in block scope
+    (row, col) = get_row_col_from_cell(move)
+    if board[row][col] != ' ':  # check if cell is NOT empty
+        return True  # if empty cell: is_occupied returns True
+    else:
+        return False  # if (taken) not empty cell: is_occupied returns False
+
+
 def take_user_choice():
     move = int(input('Enter number between 1-9'))
     if not move or move < 1 or move > 9:
         print('Invalid input')
         return take_user_choice()
+    elif is_occupied(move):
+        print('Already occupied')
+        return take_user_choice()
+    return move
 
 
 def start_game():
     while not is_game_over():
         print_board()
         user_choice = take_user_choice()
+        (row, col) = get_row_col_from_cell(user_choice)
 
 
 # function takes username and checks that
