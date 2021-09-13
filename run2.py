@@ -106,3 +106,10 @@ print("\n")
 print("Trying to reassign values[\"a\"]")
 values["a"] = "[ X ]"
 print(values["a"])
+
+# display board:
+print(board)
+
+# from dictionary comprehension line above:
+a = {x: print(board[x], board[(x+1)], board[(x+2)]) for x in range(0, 8, 3)}
+# modify dictionary comprehension:
