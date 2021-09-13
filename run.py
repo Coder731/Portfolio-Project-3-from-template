@@ -9,6 +9,15 @@ name = input("Enter Name ")
 print("Name entered is : ", name)
 print(type(name))
 
+# Add code to check if integer is used, using a while loop:
+
+while True:
+    move = input()
+    if not move.isdigit():
+        continue# if the user does not enter a digit, continue asking user for move # Note will have to check if in range also [ ]
+        else:
+            PRINT("thank you for inputing a digit")
+            break
 
 # Credit Comment:
 # https://youtu.be/BHh654_7Cmw?t=562
