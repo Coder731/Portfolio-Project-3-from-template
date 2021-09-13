@@ -39,7 +39,7 @@ def is_occupied(move):
 
 
 def take_user_choice():
-    move = int(input('Enter number between 1-9'))
+    move = int(input('Enter number between 1-9: '))
     if not move or move < 1 or move > 9:
         print('Invalid input')
         return take_user_choice()
