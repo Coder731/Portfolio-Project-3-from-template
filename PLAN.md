@@ -9,4 +9,7 @@ Consider player 1 player 2
 
 ## This Step: Add assignment for incorporating user choice into board
 
+use code:
+    values["a"] = the_new_value
+
 ## Next Step: present board
