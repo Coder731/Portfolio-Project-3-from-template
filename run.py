@@ -59,14 +59,14 @@ values = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5,
 print("\n")
 print('\t- - - - - - -')
 
-print("\t| {} | {} | {} |".format(values[0], values[1], values[2]))
+print("\t| {} | {} | {} |".format(values["a"], values["b"], values["c"]))
 print('\t- - + - + - -')
 
-print("\t| {} | {} | {} |".format(values[3], values[4], values[5]))
+print("\t| {} | {} | {} |".format(values["d"], values["e"], values["f"]))
 print('\t- - + - + - -')
 
 
-print("\t| {} | {} | {} |".format(values[6], values[7], values[8]))
+print("\t| {} | {} | {} |".format(values["g"], values["h"], values["i"]))
 print('\t- - - - - - -')
 
 print("\n")
