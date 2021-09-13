@@ -65,3 +65,4 @@ Solved Using:
         - use join method to make board display code more elegant
         - use row and column 
         - create function to switch symbol per player
+        - use a space in a string for cells on table
