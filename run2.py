@@ -113,3 +113,16 @@ print(board)
 # from dictionary comprehension line above:
 a = {x: print(board[x], board[(x+1)], board[(x+2)]) for x in range(0, 8, 3)}
 # modify dictionary comprehension:
+# print(board[x], board[(x+1)], board[(x+2)]) for x in range(0, 8, 3)
+print(values["a"])  # ...
+
+# new_board = [ ] [ ] [ ]
+#             [ ] [ ] [ ]
+#             [ ] [ ] [ ]
+
+new_board = {"a": "[ ]", "b": "[ ]", "c": "[ ]", "d": "[ ]",
+             "e": "[ ]", "f": "[ ]", "g": "[ ]", "h": "[ ]", "i": "[ ]"}
+
+print(new_board["a"], new_board["b"], new_board["c"])
+print(new_board["d"], new_board["e"], new_board["f"])
+print(new_board["g"], new_board["h"], new_board["i"])
