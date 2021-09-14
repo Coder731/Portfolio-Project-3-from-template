@@ -17,11 +17,14 @@ use code:
 ## Deprecated Step 1: This Step:
 Change first Square of board to an X on user input
 
-## This Step:
+## Deprecated: This Step:
 Check if board is full
 
-## Next Step:
+## Deprecated: Next Step:
 add logic for three in a line (row/col/diagonal)
 
-## Current Step:
+## Deprecated: Current Step:
 - Combine is_game_over function with matrix row counting code
+
+## Step 1:
+- Find out how to index a list
