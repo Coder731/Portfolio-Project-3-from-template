@@ -87,3 +87,6 @@ Solved Using:
     # https://stackoverflow.com/questions/53101229/how-to-iterate-through-a-matrix-column-in-python
 
 - Create run6.py from run5.py
+
+- Create run7.py from run6.py 
+    - run7.py is a shortened version of the file to focus on issue
