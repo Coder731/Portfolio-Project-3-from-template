@@ -10,6 +10,9 @@ print(board[0])
 print(board[1])
 print(board[2])
 
+# Want to ...
+print(board[r])
+
 print(board.index([1][1]))
 
 # index()
