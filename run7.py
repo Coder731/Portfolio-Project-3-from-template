@@ -54,11 +54,11 @@ def combo():
 
             # ilok()
             # https://www.askpython.com/python-modules/pandas/update-the-value-of-a-row-dataframe
-            #if row_i == row_throughput and col_j == col_throughput and \
+            # if row_i == row_throughput and col_j == col_throughput and \
                 # board.iloc[[r], [c]] == value_to_set_to:
             # board  [rows, cols] -> set to this
 
-                    # board.iloc[[r],[c]] != " ":
+                # board.iloc[[r],[c]] != " ":
                 # board.iloc[[r],[c]][r][c] != " ":
                 # print("no more spaces available, game over")
                 # break
