@@ -90,3 +90,5 @@ Solved Using:
 
 - Create run7.py from run6.py 
     - run7.py is a shortened version of the file to focus on issue
+
+- board is not a matrix but a list of lists
