@@ -92,3 +92,13 @@ Solved Using:
     - run7.py is a shortened version of the file to focus on issue
 
 - board is not a matrix but a list of lists
+
+- run8_iterate.py
+    - Error:
+        - TypeError: list indices must be integers or slices, not list
+
+    - Root Cause:
+        - r in board
+            - used in for loop
+        - r is a list
+            - r = [' ', ' ', ' ']

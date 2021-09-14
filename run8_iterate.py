@@ -17,7 +17,8 @@ print(board[2])
 
 print(len(board))
 # partial loop
-for r in len(board):
+for r in board:
+    print("r is : ", r)
     print(board[r])
 
 print(board.index([1][1]))
