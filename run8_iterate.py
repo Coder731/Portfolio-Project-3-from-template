@@ -11,7 +11,14 @@ print(board[1])
 print(board[2])
 
 # Want to ...
-print(board[r])
+# embed in a loop
+# for / while, then conditional / if
+# use code at #"index()" below as template
+
+print(len(board))
+# partial loop
+for r in len(board):
+    print(board[r])
 
 print(board.index([1][1]))
 
