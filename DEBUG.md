@@ -15,3 +15,9 @@ Error
 - NameError: name 'r' is not defined
 File
 - run7.py
+
+## Bug: 
+Error:
+    - ValueError: [0] is not in list
+
+
