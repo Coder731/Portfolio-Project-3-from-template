@@ -12,3 +12,6 @@
 
 ## index a list
 - [Introduction to Python List Index](https://www.educba.com/python-list-index/)
+
+# General References
+- lists and tuples [Python Tutorial 2021](https://youtu.be/H1elmMBnykA?t=2624)
