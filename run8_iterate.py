@@ -4,8 +4,10 @@ board = [
         [' ', ' ', ' ']
     ]
 
-r = 0
-c = 0
+r = 1
+c = 1
+
+print(board.index([1][1]))
 
 # index()
 for r in board.index([r]):
