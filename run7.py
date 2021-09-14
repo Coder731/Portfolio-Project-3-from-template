@@ -24,9 +24,10 @@ def combo():
 
     loop_count = 0
 
+    """
     for row_i in row_throughput:
         for col_j in col_throughput:
-            if board[r][c] == " ":
+            if board[row_i][col_j] == " ":
                 print("spaces available")
                 break
             loop_count += 1
@@ -36,17 +37,31 @@ def combo():
             print("len(row_i): ", len(row_i))
             print("len(col_j): ", len(col_j))
 
+            # index()
+            # for r, c in board.index([r][c]):
+            # if board.index([r][c]) == " ":
+    """
+
+    # index()
+    for r in board.index([r]):
+        for c in board.index([r][c]):
+            if board.index([r][c]) != " ":
+                print(f"board[{r}][{c}] is occupied.")
+            elif board.index([r][c]) == " ":
+                print(f"board[{r}][{c}] is first empty cell.")
+                print("game continues")
+                break
+
             # ilok()
             # https://www.askpython.com/python-modules/pandas/update-the-value-of-a-row-dataframe
-            if row_i == row_throughput and col_j == col_throughput and \
+            #if row_i == row_throughput and col_j == col_throughput and \
+                # board.iloc[[r], [c]] == value_to_set_to:
+            # board  [rows, cols] -> set to this
 
-                    board.iloc[[r],[c]] = value_to_set_to
-                    # board  [rows, cols] -> set to this
-
-                    board.iloc[[r],[c]] != " ":
+                    # board.iloc[[r],[c]] != " ":
                 # board.iloc[[r],[c]][r][c] != " ":
-                print("no more spaces available, game over")
-                break
+                # print("no more spaces available, game over")
+                # break
 
             # above print returns:
 
