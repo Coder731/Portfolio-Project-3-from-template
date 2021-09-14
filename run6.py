@@ -46,10 +46,19 @@ def combo():
 
     for row_i in row_throughput:
         for col_j in col_throughput:
+
             print("row_i: ", row_i)
             print("col_j: ", col_j)
             print("len(row_i): ", len(row_i))
             print("len(col_j): ", len(col_j))
+
+            # above print returns:
+
+            # row_i:  [' ' ' ' ' ']
+            # col_j:  [' ' ' ' ' ']
+            # len(row_i):  3
+            # len(col_j):  3
+
             # do something with row_i
             # print((board[row_i][col_j]))
             print(board[0][0])
