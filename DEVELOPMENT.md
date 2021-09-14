@@ -80,3 +80,10 @@ Solved Using:
 
 - Add run5 py
     - Remove comments for ease of readability
+
+- Currently,
+    - counting matrix rows using numpy
+    from site:
+    # https://stackoverflow.com/questions/53101229/how-to-iterate-through-a-matrix-column-in-python
+
+- Create run6.py from run5.py

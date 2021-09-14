@@ -22,3 +22,6 @@ Check if board is full
 
 ## Next Step:
 add logic for three in a line (row/col/diagonal)
+
+## Current Step:
+- Combine is_game_over function with matrix row counting code

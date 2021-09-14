@@ -18,32 +18,56 @@ def is_game_over():
     # Check if there no space left
 
     # https://stackoverflow.com/questions/53101229/how-to-iterate-through-a-matrix-column-in-python
-    for row_i in board:
-        for col_j in enumerate(row_i):  # enumerate -> (index,value) tuple
-            print('test')
-            print(board[row_i][col_j])
-            #   for board[row], board[col] in board:
-            if board[row_i][col_j] != ' ':
-                row_i = row_i + 1
-                col_j = col_j + 1
-            return False  # Allows game to continue
+    # for row_i in board:
+    #   for col_j in enumerate(row_i):  # enumerate -> (index,value) tuple
+    #       # print('test')
+    #   #    # print(board[row_i][col_j])
+    #   #    ##  for board[row], board[col] in board:
+    #   #    # if board[row_i][col_j] != ' ':
+    #   #        # row_i = row_i + 1
+    #   #        # col_j = col_j + 1
+    #       return False  # Allows game to continue
+    return False
 
 
 def combo():
-    for row_i in board:
-        for col_j in enumerate(row_i):  # enumerate -> (index,value) tuple
+    # Returns
+    # TEST: No. of rows in board:  3
+    # TEST: No. of rows in board:  3
+
+    # row counter
+    row_throughput = np.array(board)
+    row_count = len(row_throughput)
+    print("TEST: No. of rows in board: ", row_count)
+    # col counter
+    col_throughput = np.array(board)
+    col_count = len(col_throughput)
+    print("TEST: No. of rows in board: ", col_count)
+
+    for row_i in row_throughput:
+        for col_j in col_throughput:
+            print("row_i: ", row_i)
+            print("col_j: ", col_j)
+            print("len(row_i): ", len(row_i))
+            print("len(col_j): ", len(col_j))
+            # do something with row_i
+            # print((board[row_i][col_j]))
+            print(board[0][0])
+
+
+combo()
 
 
 # https://www.includehelp.com/python/row-numbers-in-a-matrix.aspx
 
 # Use of np.array() to define a matrix
-V = np.array([[1,2,3],[2,3,5],[3,6,8],[323,623,823]])
-print("--The Matrix-- \n",V)
+# V = np.array([[1,2,3],[2,3,5],[3,6,8],[323,623,823]])
+# print("--The Matrix-- \n",V)
 
 # number of rows
-num = len(V)
+# num = len(V)
 
-print("Number of rows in the Given Matrix : ", num)
+# print("Number of rows in the Given Matrix : ", num)
 
 
 def print_board():

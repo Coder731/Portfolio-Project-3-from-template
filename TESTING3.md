@@ -20,3 +20,9 @@ Unused variable 'col'
 
 ## Bug2
 - Game does not know when board is full
+
+## Getting matrix number of rows
+use code from here:
+https://www.includehelp.com/python/row-numbers-in-a-matrix.aspx
+to get number of rows in matrix
+
