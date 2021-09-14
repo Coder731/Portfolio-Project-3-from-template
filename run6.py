@@ -58,18 +58,6 @@ def combo():
 combo()
 
 
-# https://www.includehelp.com/python/row-numbers-in-a-matrix.aspx
-
-# Use of np.array() to define a matrix
-# V = np.array([[1,2,3],[2,3,5],[3,6,8],[323,623,823]])
-# print("--The Matrix-- \n",V)
-
-# number of rows
-# num = len(V)
-
-# print("Number of rows in the Given Matrix : ", num)
-
-
 def print_board():
     for row in board:
         print(('---').join(row))
