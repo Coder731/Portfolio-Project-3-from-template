@@ -40,3 +40,12 @@ returned:
     - print statement not working
 - Attempted solution    
     - call function
+- Solution
+    - In progress
+
+## Bug
+Errors:
+    - variable r undefined
+    - variable c undefined
+Plan:
+    - 

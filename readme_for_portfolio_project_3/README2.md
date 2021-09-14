@@ -92,9 +92,10 @@ Attempted Solution:
 ## Miscellaneous
 - Vertical Line [Enter "vertical bar" (or "pipe symbol") in Windows](https://apple.stackexchange.com/questions/52647/enter-vertical-bar-or-pipe-symbol-in-windows)
 
-## TicTacToe Reference
+## TicTacToe References
 - [The Classic Tic-Tac-Toe Game in Python 3](https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874)
+- [Invent Your Own Computer Games with Python by Al Sweigart / Chapter 10 - Tic-Tac-Toe](https://inventwithpython.com/invent4thed/chapter10.html)
 
 ## Flake Reference
-- [](https://pypi.org/project/flake8/)
+- [flake8](https://pypi.org/project/flake8/)
 
