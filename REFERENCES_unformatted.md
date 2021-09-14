@@ -9,3 +9,6 @@
     - code:
         - import pandas as pd
           print(pd.__version__)
+
+## index a list
+- [Introduction to Python List Index](https://www.educba.com/python-list-index/)
