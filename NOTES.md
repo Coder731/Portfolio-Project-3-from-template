@@ -8,3 +8,9 @@ python3 run.py
         - to start program running
     - Ctrl + Alt + M
         - to stop program running
+
+## index list
+- board is not a matrix,
+    - but a list of lists.
+
+- each list has 3 elements and there are 3 lists
