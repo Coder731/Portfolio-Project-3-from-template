@@ -28,3 +28,8 @@ add logic for three in a line (row/col/diagonal)
 
 ## Step 1:
 - Find out how to index a list
+
+## Step 2:
+- Change for loop index from r in board, which is a list [" ", " ", " "]
+    - to a counter
+    -use range(len(board))
