@@ -32,4 +32,4 @@ add logic for three in a line (row/col/diagonal)
 ## Step 2:
 - Change for loop index from r in board, which is a list [" ", " ", " "]
     - to a counter
-    -use range(len(board))
+    - use range(len(board))
