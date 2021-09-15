@@ -3,12 +3,6 @@
 # on this and previous portfolio projects
 # https://github.com/akshatnitd
 
-# https://www.askpython.com/python-modules/pandas/update-the-value-of-a-row-dataframe
-import pandas as pd
-
-# https://datatofish.com/pandas-version-installed/
-print(pd.__version__)
-
 board = [
         [' ', ' ', ' '],
         [' ', ' ', ' '],
