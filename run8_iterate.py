@@ -17,7 +17,7 @@ print(board[2])
 
 print(len(board))
 # partial loop
-for r in board:
+for r in range(len(board)):
     print("r is : ", r)
     print(board[r])
 
