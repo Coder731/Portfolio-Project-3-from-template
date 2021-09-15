@@ -1,5 +1,7 @@
-# https://www.includehelp.com/python/row-numbers-in-a-matrix.aspx
-import numpy as np
+# Credit Comment
+# Many thanks to my mentor, Akshat Garg, for all the help
+# on this and previous portfolio projects
+# https://github.com/akshatnitd
 
 # https://www.askpython.com/python-modules/pandas/update-the-value-of-a-row-dataframe
 import pandas as pd
@@ -45,17 +47,8 @@ def is_game_over():
 
     if is_all_filled:
         return True
+
     # https://stackoverflow.com/questions/53101229/how-to-iterate-through-a-matrix-column-in-python
-    # for row_i in board:
-    #   for col_j in enumerate(row_i):  # enumerate -> (index,value) tuple
-    #       # print('test')
-    #   #    # print(board[row_i][col_j])
-    #   #    ##  for board[row], board[col] in board:
-    #   #    # if board[row_i][col_j] != ' ':
-    #   #        # row_i = row_i + 1
-    #   #        # col_j = col_j + 1
-    #       return False  # Allows game to continue
-    return False
 
 
 def print_board():
