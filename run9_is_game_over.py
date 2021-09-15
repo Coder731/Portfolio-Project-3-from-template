@@ -24,6 +24,10 @@ def is_game_over():
             return True
 
     # Check for 3 in a column vertically
+    for y in range(3):
+        if board[0][y] == board[1][y] and boardd[1][y] == board[2][y]:
+            return True
+
     # Check for 3 in a line diagonally
     # Check if there no space left
 
