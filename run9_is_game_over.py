@@ -37,7 +37,7 @@ def is_game_over():
     is_all_filled = True
     for x in range(3):
         for y in range(3):
-            if board(x)(y) == ' ':
+            if board[x][y] == ' ':
                 is_all_filled = False
                 break
         if not is_all_filled:
