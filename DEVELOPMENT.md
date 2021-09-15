@@ -102,3 +102,6 @@ Solved Using:
             - used in for loop
         - r is a list
             - r = [' ', ' ', ' ']
+
+    - Note:
+        - [type method()](https://www.tutorialsteacher.com/python/type-method)

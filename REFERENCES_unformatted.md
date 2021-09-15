@@ -13,5 +13,8 @@
 ## index a list
 - [Introduction to Python List Index](https://www.educba.com/python-list-index/)
 
+# methods
+- [type method()](https://www.tutorialsteacher.com/python/type-method)
+
 # General References
 - lists and tuples [Python Tutorial 2021](https://youtu.be/H1elmMBnykA?t=2624)
