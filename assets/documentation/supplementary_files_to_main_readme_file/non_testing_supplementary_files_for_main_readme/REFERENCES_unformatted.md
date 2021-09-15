@@ -26,3 +26,7 @@ x is a dummy variable and can come in a few different forms"
 
 # General References
 - lists and tuples [Python Tutorial 2021](https://youtu.be/H1elmMBnykA?t=2624)
+
+# Miscellaneous References
+
+- [Break a long line into multiple lines in Python](https://www.interviewqs.com/ddi-code-snippets/break-long-line-python)

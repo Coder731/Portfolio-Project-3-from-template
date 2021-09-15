@@ -29,7 +29,8 @@ def is_game_over():
             return True
 
     # Check for 3 in a line diagonally
-    if (board[0][0] == board[1][1] and board[1][1] == board[2][2]) or (board[0][2] == board[1][1] and board[1][1] == board[2][0]):
+    if (board[0][0] == board[1][1] and board[1][1] == board[2][2]) or \
+            (board[0][2] == board[1][1] and board[1][1] == board[2][0]):
         return True
 
     # Check if there no space left
