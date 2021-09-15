@@ -1,3 +1,10 @@
+# This is not main README
+## Where to find main README
+- [readme_for_portfolio_project_3/README2.md](readme_for_portfolio_project_3/README2.md)
+
+### Please go to the above link now and ignore the rest of this Stock README from template
+
+# Stock README from template
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Coder731,

@@ -1,8 +1,22 @@
-## Development Continued
+## Multiple README files Explanation
 There are currently 3 README files:
 1. The first README file is currently in Portfolio_Project_3
 2. The second README file is currently in Portfolio_Project_3_from_Template as it came prewritten with the template
 3. The third  README file is also currently in Portfolio_Project_3_from_Template, in the folder readme_for_portfolio_project_3
+
+## Other .md markdown files in project
+
+## file location of main README file
+
+readme_for_portfolio_project_3/
+
+## file locations of markdown .md files not in root folder
+
+assets/
+
+
+
+## Development Continued
 
 ### Phase 0
 Error present in terminal: 
