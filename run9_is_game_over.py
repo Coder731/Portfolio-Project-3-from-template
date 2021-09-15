@@ -34,7 +34,17 @@ def is_game_over():
         return True
 
     # Check if there no space left
+    is_all_filled = True
+    for x in range(3):
+        for y in range(3):
+            if board(x)(y) == ' ':
+                is_all_filled = False
+                break
+        if not is_all_filled:
+            break
 
+    if is_all_filled:
+        return True
     # https://stackoverflow.com/questions/53101229/how-to-iterate-through-a-matrix-column-in-python
     # for row_i in board:
     #   for col_j in enumerate(row_i):  # enumerate -> (index,value) tuple
