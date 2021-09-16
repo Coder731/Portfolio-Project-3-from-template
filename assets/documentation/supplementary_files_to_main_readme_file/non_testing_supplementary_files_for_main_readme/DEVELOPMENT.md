@@ -108,4 +108,5 @@ Solved Using:
 
 - run 16 py 
     - Need to display board after winning board
+        - Resolved in run.py
     - and add messages such as "You Win!"

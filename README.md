@@ -3,6 +3,9 @@
 This project is a tic tac toe game.
 The developmenmt is documnented here and other markdown files are linked out to also.
 
+# Deployed Project
+- [Portfolio_project_3_from_template Deployed on Heroku](https://portfolio-project-3-tictactoe.herokuapp.com/)
+
 # User Stories
 
 This is designed for users to play tic tac toe.
@@ -83,6 +86,9 @@ It also documents:
 ![tictactoe_running_on_heroku.png](assets/images/tictactoe_running_on_heroku.png)
 
 ![Heroku deployment](assets/images/heroku__deployment.png)
+
+# Deployed Project
+- [Portfolio_project_3_from_template Deployed on Heroku](https://portfolio-project-3-tictactoe.herokuapp.com/)
 
 # Acknowledgement
 Many thanks to my mentor, Akshat Garg, for all the help on this and previous portfolio projects
@@ -268,6 +274,29 @@ New error: interim function name error
 - Next Step:
 	- Remove all interim function calls
 - Bug has been Resolved
+
+### Final board not displaying after win Bug [Resolved]
+Error:
+	- SyntaxError: name 'game_is_over' is assigned to before global declaration
+Attempted Solution:
+	- Searched Error
+
+Result:
+Reference:
+- [SyntaxWarning: name 'item' is assigned to before global declaration global item](https://stackoverflow.com/questions/53528532/syntaxwarning-name-item-is-assigned-to-before-global-declaration-global-item)
+- Reference recommendation:
+	- Remove global keyword from within loop
+Resolved
+
+### Board not Displaying after win Bug [Resolved]
+Bug:
+- Board does not display after winning
+Solution:
+- Add game_is_over variable set to False
+- For any of the three loops in is_game_over() function, 
+	if condition is satisfied,
+	- set game_is_over variable to True
+	- call print_board() function
 
 
 ## Note on Development

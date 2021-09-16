@@ -11,6 +11,7 @@ board = [
 
 
 player_symbol = 'O'
+global game_is_over
 game_is_over = False
 
 
@@ -22,6 +23,8 @@ def is_game_over():
                 and board[x][2] == 'X') or (board[x][0] == board[x][1]
                                             and board[x][1] == board[x][2]
                                             and board[x][2] == 'O'):
+            game_is_over = True
+            print_board()
             return True
 
     # Check for 3 in a column vertically
@@ -31,6 +34,8 @@ def is_game_over():
                 and board[2][y] == 'X') or (board[0][y] == board[1][y]
                                             and board[1][y] == board[2][y]
                                             and board[2][y] == 'O'):
+            game_is_over = True
+            print_board()
             return True
 
     # Check for 3 in a line diagonally
@@ -45,6 +50,8 @@ def is_game_over():
                                             (board[0][2] == board[1][1]
                                              and board[1][1] == board[2][0]
                                              and board[2][0] == 'O'):
+        game_is_over = True
+        print_board()
         return True
 
     # Check if there no space left
