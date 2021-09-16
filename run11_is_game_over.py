@@ -27,6 +27,11 @@ def is_game_over():
                 and board[1][y] == board[2][y] \
                 and board[2][y] == ('X' or 'O'):
             return True
+        elif not (board[0][y] == board[1][y]
+                  and board[1][y] == board[2][y]
+                  and board[2][y] == ('X' or 'O')):
+            print(f"board[0][y]{board[0][y]}"
+            return False
 
     # Check for 3 in a line diagonally
     if (board[0][0] == board[1][1]
