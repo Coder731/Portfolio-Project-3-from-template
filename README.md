@@ -97,9 +97,27 @@ https://github.com/akshatnitd
 # run.py
 - Application runs from run.py in root folder
 
-# Checking any missing parts From Love Running Template README
+# Checking for ommissions from README
+## Checking any missing parts versus Code-Institute-Solutions / SampleREADME
+-[Code-Institute-Solutions / SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
 
+## Checking any missing parts versus Love Running Template README
+- [Link to Love Running Template README](https://github.com/Code-Institute-Solutions/readme-template)
 
+## For Love Math README see gitpod-full-template README
+- [gitpod-full-template README](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+## Checking any missing parts versus Love Sandwiches Template README
+- [Link to Love Sandwiches Template README](https://github.com/Code-Institute-Solutions/love-sandwiches-p5-sourcecode/blob/master/05-deployment/01-deployment-part-1/README.md)
+
+## Checking any missing parts versus Code-Institute-Org / python-essentials-template
+- [Code-Institute-Org / python-essentials-template](https://github.com/Code-Institute-Org/python-essentials-template)
+
+## Checking any missing parts versus Portfolio_Project_1
+- [Link to Portfolio_Project_1 README](https://github.com/Coder731/Portfolio_Project_1/blob/main/README.md)
+
+## Checking any missing parts versus Portfolio_Project_2
+- [Link to Portfolio_Project_2 README](https://github.com/Coder731/Profile_Project_2/blob/main/README.md)
 
 # Other Notes
 
