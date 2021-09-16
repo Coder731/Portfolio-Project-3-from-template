@@ -245,12 +245,22 @@ Trying to print final board after a player wins
 	- added two if conditons from print_final_board to print_board
 	- ran program run.py in terminal
 Image of feedback from terminal:
+
+- recursion error
 ![recursion_error.png](assets/images/recursion_error.png)
+
 - Attempted Solution
 	- Removed interim and print_final_board functions
 	- left extra if statements in print_board function
 - Same error message but slightly different output
+
+- recursion error two 
 ![recursion_error_two.png](assets/images/recursion_error_two.png)
+
+- Debugging EOFError 
+![Debugging EOFError](assets/images/debugging_eoferror.png)
+- Potential Solution
+	- Could use try catch exception handling
 
 
 ## Note on Development
