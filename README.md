@@ -194,8 +194,16 @@ tomli==1.2.1
  ### Bug Brackets displaying on board
  Description
  - Brackets displaying
- Attempted Solution
- - Find out if board be displayed without brackets.
+ Solution
+ - Display board without brackets.
+
+## Checking win condition 
+### Vertical three in a line
+Image showing debugging using python tutor of subset of code dealing with checking for three O's in a line vertically.
+
+Shows program exits as expected for three O's vertically in line, indicating this piece of code has been fixed.
+![python_tutor_fixing_three_vertically.png](assets/images/python_tutor_fixing_three_vertically.png)
+
 
 ### Complex Bug
 Keywords for Error:

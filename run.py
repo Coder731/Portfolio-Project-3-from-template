@@ -115,6 +115,7 @@ def take_user_choice():
 # TypeError
 # https://www.flake8rules.com/rules/E722.html
 # https://docs.python.org/3/library/exceptions.html#TypeError
+# https://www.w3schools.com/python/python_try_except.asp
 
 
 def change_player_symbol():
