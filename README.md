@@ -94,6 +94,9 @@ https://github.com/akshatnitd
 # Deployed Project:
 - [portfolio-project-3-tictactoe](https://dashboard.heroku.com/apps/portfolio-project-3-tictactoe)
 
+# run.py
+- Application runs from run.py in root folder
+
 # Checking any missing parts From Love Running Template README
 
 
