@@ -5,12 +5,13 @@ The developmenmt is documnented here and other markdown files are linked out to 
 
 # User stories
 
-This is designed for users to plya tic tac toe.
+This is designed for users to play tic tac toe.
 
 It also documents:
-	- lessons I learned about python during the project
+
+	- lessons learned about python during the project
 	- bugs encountered during development
-	- the approach I took to building my first python project
+	- the approach taken building first python project
 
 # Features
 - board, shown as game is progressing
@@ -77,7 +78,7 @@ It also documents:
 					- Periodically redeployed during development
 		- Clicked View to go to deployed link
 	- Run Program button present, but program started automatically
-	
+
 
 - ![Heroku deployment](assets/images/heroku__deployment.png)
 
