@@ -14,41 +14,22 @@ player_symbol = 'O'
 
 
 def is_game_over():
-    # Check for 3 in a row horizontally
-    for x in range(3):
-        if board[x][0] == board[x][1] \
-                and board[x][1] == board[x][2] \
-                and board[x][2] == ('X' or 'O'):
-            return True
-
     # Check for 3 in a column vertically
     for y in range(3):
+        print(f"y: {y}")
+        print(f"board[0][y]: {board[0][y]}")
+        print(f"board[1][y]: {board[1][y]}")
+        print(f"board[2][y]: {board[2][y]}")
+        print((f"'X' or 'O': {'X' or 'O'}"))
+        print(f"y: {y}")
         if board[0][y] == board[1][y] \
                 and board[1][y] == board[2][y] \
-                and board[2][y] == ('X' or 'O'):
+                and board[2][y] == 'X':
             return True
-
-    # Check for 3 in a line diagonally
-    if (board[0][0] == board[1][1]
-        and board[1][1] == board[2][2]
-            and board[2][2] == ('X' or 'O')) or \
-            (board[0][2] == board[1][1]
-                and board[1][1] == board[2][0]
-                and board[2][0] == ('X' or 'O')):
-        return True
-
-    # Check if there no space left
-    is_all_filled = True
-    for x in range(3):
-        for y in range(3):
-            if board[x][y] == ' ':
-                is_all_filled = False
-                break
-        if not is_all_filled:
-            break
-
-    if is_all_filled:
-        return True
+        elif board[0][y] == board[1][y] \
+                and board[1][y] == board[2][y] \
+                and board[2][y] == 'O':
+            return True
 
     # https://stackoverflow.com/questions/53101229/how-to-iterate-through-a-matrix-column-in-python
 
@@ -103,17 +84,7 @@ def start_game():
         board[row][col] = player_symbol
 
 
-def take_user_name_input():
-    name = input("Enter Name ")
-    if not name:
-        return take_user_name_input()
-    else:
-        return name
-
-
 def init_game():
-    name = take_user_name_input()
-    print("Name entered is : ", name)
     start_game()
 
 
