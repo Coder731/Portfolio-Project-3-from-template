@@ -50,6 +50,7 @@ It also documents:
 - Heroku was used to deploy site
 - Variable PORT was set to 8000
 - Added Python then node.js
+- ![Heroku deployment](assets/images/heroku__deployment.png)
 
 # Acknowledgement
 Many thanks to my mentor, Akshat Garg, for all the help on this and previous portfolio projects
