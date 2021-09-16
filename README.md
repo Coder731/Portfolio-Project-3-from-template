@@ -97,7 +97,8 @@ https://github.com/akshatnitd
 # run.py
 - Application runs from run.py in root folder
 
-# Checking for ommissions from README
+# Checking for omissions from README
+
 ## Checking any missing parts versus Code-Institute-Solutions / SampleREADME
 -[Code-Institute-Solutions / SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
 

@@ -97,14 +97,24 @@ def is_occupied(move):
 
 
 def take_user_choice():
-    move = int(input('Enter number between 1-9: '))
-    if not move or move < 1 or move > 9:
-        print('Invalid input')
+    try:
+        move = int(input('Enter number between 1-9: '))
+        if not move or move < 1 or move > 9:
+            print('Invalid input: Please enter a number between 1 and 9')
+            return take_user_choice()
+        elif is_occupied(move):
+            print('Already occupied')
+            return take_user_choice()
+        return move
+    except TypeError:
+        print('Invalid input: integer expected: TypeError')
         return take_user_choice()
-    elif is_occupied(move):
-        print('Already occupied')
+    except ValueError:
+        print('Invalid input:  integer expected: ValueError')
         return take_user_choice()
-    return move
+# TypeError
+# https://www.flake8rules.com/rules/E722.html
+# https://docs.python.org/3/library/exceptions.html#TypeError
 
 
 def change_player_symbol():
