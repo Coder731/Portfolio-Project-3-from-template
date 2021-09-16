@@ -3,7 +3,7 @@
 This project is a tic tac toe game.
 The developmenmt is documnented here and other markdown files are linked out to also.
 
-# User stories
+# User Stories
 
 This is designed for users to play tic tac toe.
 
@@ -75,6 +75,7 @@ It also documents:
 			- searched for GitHub Repository name
 				- Clicked Search and Connect
 				- Used Manual Deploy
+					- ![manual_deploy.png](assets/images/manual_deploy.png)
 					- Periodically redeployed during development
 		- Clicked View to go to deployed link
 	- Run Program button present, but program started automatically
@@ -88,6 +89,13 @@ https://github.com/akshatnitd
 
 - link to [References](#README.md/Referneces) in README
 - link to [REFERENCES_unformatted.md](assets/documentation/supplementary_files_to_main_readme_file/non_testing_supplementary_files_for_main_readme/REFERENCES_unformatted.md)
+
+# Deployed Project:
+- [portfolio-project-3-tictactoe](https://dashboard.heroku.com/apps/portfolio-project-3-tictactoe)
+
+# Checking any missing parts From Love Running Template README
+
+
 
 # Other Notes
 
