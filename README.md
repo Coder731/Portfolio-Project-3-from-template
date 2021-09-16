@@ -13,7 +13,9 @@ It also documents:
 	- the approach I took to building my first python project
 
 # Features
-- board, shown as game is progressing [game_running_in_terminal.png](assets/images/game_running_in_terminal.png)
+- board, shown as game is progressing
+
+![game_running_in_terminal.png](assets/images/game_running_in_terminal.png)
 
 - The board displayed to the user is a list of lists
 ## Image of board
