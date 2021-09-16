@@ -3,12 +3,6 @@
 # on this and previous portfolio projects
 # https://github.com/akshatnitd
 
-# this file from
-# run10_is_game_over.py
-# Add
-# vertical check conditionals from:
-# run14_double_conditions.py
-
 board = [
         [' ', ' ', ' '],
         [' ', ' ', ' '],
@@ -30,14 +24,6 @@ def is_game_over():
             return True
 
     # Check for 3 in a column vertically
-    # Note this goes against the principle of DRY "Do not
-    # repeat yourself"
-    # However, due to time constraints, current level of understanding
-    # of python
-    # and the fact that boolean ('X' or 'O')
-    # evaluates to X
-    # (therefore not testing for 3 'O' in a line)
-    # repitition was used as a work around in conditionals:
     for y in range(3):
         if (board[0][y] == board[1][y]
                 and board[1][y] == board[2][y]
@@ -112,7 +98,7 @@ def take_user_choice():
     except ValueError:
         print('Invalid input:  integer expected: ValueError')
         return take_user_choice()
-# TypeError
+# TypeError, ValuError
 # https://www.flake8rules.com/rules/E722.html
 # https://docs.python.org/3/library/exceptions.html#TypeError
 # https://www.w3schools.com/python/python_try_except.asp
