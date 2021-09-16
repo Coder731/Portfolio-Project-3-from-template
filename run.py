@@ -18,38 +18,38 @@ game_is_over = False
 def is_game_over():
     # Check for 3 in a row horizontally
     for x in range(3):
-        if (board[x][0] == board[x][1]
-                and board[x][1] == board[x][2]
-                and board[x][2] == 'X') or (board[x][0] == board[x][1]
-                                            and board[x][1] == board[x][2]
-                                            and board[x][2] == 'O'):
+        if (board[x][0] == board[x][1] and
+            board[x][1] == board[x][2] and
+            board[x][2] == 'X') or (board[x][0] == board[x][1] and
+                                    board[x][1] == board[x][2] and
+                                    board[x][2] == 'O'):
             game_is_over = True
             print_board()
             return True
 
     # Check for 3 in a column vertically
     for y in range(3):
-        if (board[0][y] == board[1][y]
-                and board[1][y] == board[2][y]
-                and board[2][y] == 'X') or (board[0][y] == board[1][y]
-                                            and board[1][y] == board[2][y]
-                                            and board[2][y] == 'O'):
+        if (board[0][y] == board[1][y] and
+            board[1][y] == board[2][y] and
+            board[2][y] == 'X') or (board[0][y] == board[1][y] and
+                                    board[1][y] == board[2][y] and
+                                    board[2][y] == 'O'):
             game_is_over = True
             print_board()
             return True
 
     # Check for 3 in a line diagonally
-    if ((board[0][0] == board[1][1]
-        and board[1][1] == board[2][2]
-            and board[2][2] == 'X') or
-            (board[0][2] == board[1][1]
-                and board[1][1] == board[2][0]
-                and board[2][0] == 'X')) or (board[0][0] == board[1][1]
-                                             and board[1][1] == board[2][2]
-                                             and board[2][2] == 'O') or \
-                                            (board[0][2] == board[1][1]
-                                             and board[1][1] == board[2][0]
-                                             and board[2][0] == 'O'):
+    if ((board[0][0] == board[1][1] and
+         board[1][1] == board[2][2] and
+         board[2][2] == 'X') or
+            (board[0][2] == board[1][1] and
+             board[1][1] == board[2][0] and
+             board[2][0] == 'X')) or (board[0][0] == board[1][1] and
+                                      board[1][1] == board[2][2] and
+                                      board[2][2] == 'O') or \
+            (board[0][2] == board[1][1] and
+             board[1][1] == board[2][0] and
+             board[2][0] == 'O'):
         game_is_over = True
         print_board()
         return True
