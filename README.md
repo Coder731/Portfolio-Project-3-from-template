@@ -4,7 +4,8 @@ This project is a tic tac toe game.
 The developmenmt is documnented here and other markdown files are linked out to also.
 
 # Deployed Project
-- [Portfolio_project_3_from_template Deployed on Heroku](https://portfolio-project-3-tictactoe.herokuapp.com/)
+- Heroku Main Deployment [Portfolio_project_3_from_template Deployed on Heroku](https://portfolio-project-3-tictactoe.herokuapp.com/)
+	- github secondary deployment [GitHub Deployment](https://coder731.github.io/Portfolio-Project-3-from-template/)
 
 # User Stories
 
@@ -17,7 +18,20 @@ It also documents:
 	- the approach taken building first python project
 
 # Features
+
 - board, shown as game is progressing
+	- running Deployed on Heroku
+
+Heroku Deployed Project Running: game starting:
+
+![Heroku Deployed Project Running, game starting](assets/images/heroku_deployed_project_running.png)
+
+Heroku Deployed Project Running: mid-game:
+
+![Heroku Deployed Project Running mid-game](assets/images/heroku_deployed_project_running_b.png)
+
+
+	- running in terminal
 
 ![game_running_in_terminal.png](assets/images/game_running_in_terminal.png)
 
@@ -48,6 +62,8 @@ It also documents:
 - [TESTING2](assets/documentation/supplementary_files_to_main_readme_file/testing_files/testing2_excluded_debug_files/TESTING2_excluded_debug.md)
 - [TESTING3](assets/documentation/supplementary_files_to_main_readme_file/testing_files/TESTING3.md)
 - [TESTING4](assets/documentation/supplementary_files_to_main_readme_file/testing_files/TESTING4.md)
+
+## Validation
 
 # Deployment
 - Used template from Code Institute to allow python backend application to have a pre-built front-end to allow ease of running for the user
@@ -86,6 +102,37 @@ It also documents:
 ![tictactoe_running_on_heroku.png](assets/images/tictactoe_running_on_heroku.png)
 
 ![Heroku deployment](assets/images/heroku__deployment.png)
+
+## secondary github deployment
+
+Step a: Click Settings:
+
+![github deployment step a](assets/images/github_deployment_a.png)
+
+Step b: Settings clicked:
+
+![github deployment step b](assets/images/github_deployment_b.png)
+
+Step c: Scroll down to GitHub Pages
+	- Click:
+		- "Check it out here!":
+
+![github deployment step c](assets/images/github_deployment_c.png)
+
+Step d: Select main Branch and root Folder
+	- Click Save
+	- Click on link after:
+		- "Your site is published at"
+	- Result:
+
+![github deployment step d](assets/images/github_deployment_d.png)
+
+Step e: Site Deployed on GitHub
+	- Has link to Heroku deployed site also.
+
+![github deployment step e](assets/images/github_deployment_e.png)
+
+[GitHub Deployment](https://coder731.github.io/Portfolio-Project-3-from-template/)
 
 # Deployed Project
 - [Portfolio_project_3_from_template Deployed on Heroku](https://portfolio-project-3-tictactoe.herokuapp.com/)
@@ -155,6 +202,27 @@ There are currently 3 README files:
 - [TESTING2_excluded_debug.md](assets/documentation/TESTING2_excluded_debug_files/TESTING2_excluded_debug.md)
 - [README2.md](readme_for_template/README2.md)
 - [README3_from_original_repo_pre_template.md](readme_for_template/README3_from_original_repo_pre_template/README3_from_original_repo_pre_template.md)
+
+# Necessary Elements (migrated from [original Portfolio_Project_3 Repository pre template](https://github.com/Coder731/Portfolio_Project_3/blob/main/README.md#necessary-elements--1))
+- PEP8 (End)_ _DONE
+- functionality works as per the critical project objectives (End)_ _DONE
+- comments, indent, consistent-meaning-naming-conventions (Process)_ _DONE
+
+- Write code that handles empty or invalid input data (During)_ _DONE
+- Clearly separate and identify code written for the application and code from external sources (e.g. libraries or tutorials) (Comments)_ _DONE
+- consistent flow of logic and data, well defined granular functions (During)_ _DONE
+- standard programming constructs: repetition, selection, functions, composition, modules, aggregated data (arrays, lists) (During) _DONE
+- standard programming constructs: flow control, iteration, selection, functions, object-oriented programming, data structures - as appropriate (During)_ _DONE
+- exception/error handling (During)_ _DONE
+
+- external Python libraries where necessary (During) _DONE
+- data model / processing _DONE
+- code that queries and manipulates data _DONE
+- github _DONE
+- basic manual testing procedures for code validation (pep8online.com)_ _in progress
+- deploy command-line application _DONE
+- no commented code (Process / End)_ _DONE
+- deploy to github pages __NOTE_DONE
 
 ## Development Continued
 
