@@ -22,9 +22,11 @@ player_symbol = 'O'
 def is_game_over():
     # Check for 3 in a row horizontally
     for x in range(3):
-        if board[x][0] == board[x][1] \
-                and board[x][1] == board[x][2] \
-                and board[x][2] == ('X' or 'O'):
+        if (board[x][0] == board[x][1]
+                and board[x][1] == board[x][2]
+                and board[x][2] == 'X') or (board[x][0] == board[x][1]
+                                            and board[x][1] == board[x][2]
+                                            and board[x][2] == 'O'):
             return True
 
     # Check for 3 in a column vertically

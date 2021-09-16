@@ -102,7 +102,13 @@ Error Further Information:
 
 Attempted Solution:
 - Searched error
-- 
+
+## Unsolved Errors
+- Potentially in code for run16 py and previous versions x and y should be reversed, but for the sake of time these will be left as is.
+
+## Image of board
+- ![image_of_board.png](assets/images/image_of_board.png)
+
 ## References
 ### Tutorials
 - Board setup [Python for absolute beginners 2019 - TIC TAC TOE project (+Special Appearance!)](https://youtu.be/BHh654_7Cmw?t=562)
