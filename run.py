@@ -68,11 +68,12 @@ def print_board():
     for row in board:
         print(('---').join(row))
     if game_is_over is True:
-            print(board)
-            print(f"{player_symbol} wins")
+        print(board)
+        print(f"{player_symbol} wins")
     if interim() is True:
         print(board)
         print(f"{player_symbol} wins")
+
 
 def get_row_col_from_cell(cell):
     col = (int(cell % 3) - 1) % 3
