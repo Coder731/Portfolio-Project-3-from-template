@@ -246,6 +246,11 @@ Trying to print final board after a player wins
 	- ran program run.py in terminal
 Image of feedback from terminal:
 ![recursion_error.png](assets/images/recursion_error.png)
+- Attempted Solution
+	- Removed interim and print_final_board functions
+	- left extra if statements in print_board function
+- Same error message but slightly different output
+![recursion_error_two.png](assets/images/recursion_error_two.png)
 
 
 ## Note on Development

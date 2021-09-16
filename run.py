@@ -144,21 +144,11 @@ def init_game():
 
 
 def interim():
-    print_final_board()
+    print_board()
     # https://stackoverflow.com/questions/32301512/how-to-set-a-global-variable-in-python
     global game_is_over
     game_is_over = True
     return True
-
-
-def print_final_board():
-    if game_is_over is True:
-        print(board)
-        print(f"{player_symbol} wins")
-
-    if interim() is True:
-        print(board)
-        print(f"{player_symbol} wins")
 
 
 init_game()
