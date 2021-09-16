@@ -103,8 +103,17 @@ Error Further Information:
 Attempted Solution:
 - Searched error
 
+## Note on Development
+- Began with run py 
+- With certain changes, run py file was duplicated and number incremented by one
+- One reason was to allow for development from run 10 py to run14 py
+	- and then combine new version of line check from that subset of code being worked on with original code
+	- to form run15 recombine py
+- There is probably a better way maybe involving using git branch and git merge but I am not familiar with these.
+
 ## Unsolved Errors
 - Potentially in code for run16 py and previous versions x and y should be reversed, but for the sake of time these will be left as is.
+- run11 py has 2 problems with the linter
 
 ## Image of board
 - ![image_of_board.png](assets/images/image_of_board.png)
