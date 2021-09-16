@@ -1,196 +1,142 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
-
-# testing terminal input
 # Credit Comment
-# https://techeplanet.com/python-read-input-from-terminal-stdin/
-name = input("Enter Name ")
-print("Name entered is : ", name)
-print(type(name))
+# Many thanks to my mentor, Akshat Garg, for all the help
+# on this and previous portfolio projects
+# https://github.com/akshatnitd
 
-# Add code to check if integer is used, using a while loop:
+# this file from
+# run10_is_game_over.py
+# Add
+# vertical check conditionals from:
+# run14_double_conditions.py
 
-while True:
-    move = input('input number from 1-9 here : ')
-    if not move.isdigit():
-        # if the user does not enter a digit, continue asking user
-        # for move # Note will have to check if in range also [ ]
-        continue
+board = [
+        [' ', ' ', ' '],
+        [' ', ' ', ' '],
+        [' ', ' ', ' ']
+    ]
+
+
+player_symbol = 'O'
+
+
+def is_game_over():
+    # Check for 3 in a row horizontally
+    for x in range(3):
+        if (board[x][0] == board[x][1]
+                and board[x][1] == board[x][2]
+                and board[x][2] == 'X') or (board[x][0] == board[x][1]
+                                            and board[x][1] == board[x][2]
+                                            and board[x][2] == 'O'):
+            return True
+
+    # Check for 3 in a column vertically
+    # Note this goes against the principle of DRY "Do not
+    # repeat yourself"
+    # However, due to time constraints, current level of understanding
+    # of python
+    # and the fact that boolean ('X' or 'O')
+    # evaluates to X
+    # (therefore not testing for 3 'O' in a line)
+    # repitition was used as a work around in conditionals:
+    for y in range(3):
+        if (board[0][y] == board[1][y]
+                and board[1][y] == board[2][y]
+                and board[2][y] == 'X') or (board[0][y] == board[1][y]
+                                            and board[1][y] == board[2][y]
+                                            and board[2][y] == 'O'):
+            return True
+
+    # Check for 3 in a line diagonally
+    if ((board[0][0] == board[1][1]
+        and board[1][1] == board[2][2]
+            and board[2][2] == 'X') or
+            (board[0][2] == board[1][1]
+                and board[1][1] == board[2][0]
+                and board[2][0] == 'X')) or (board[0][0] == board[1][1]
+                                             and board[1][1] == board[2][2]
+                                             and board[2][2] == 'O') or \
+                                            (board[0][2] == board[1][1]
+                                             and board[1][1] == board[2][0]
+                                             and board[2][0] == 'O'):
+        return True
+
+    # Check if there no space left
+    is_all_filled = True
+    for x in range(3):
+        for y in range(3):
+            if board[x][y] == ' ':
+                is_all_filled = False
+                break
+        if not is_all_filled:
+            break
+
+    if is_all_filled:
+        return True
+
+    # https://stackoverflow.com/questions/53101229/how-to-iterate-through-a-matrix-column-in-python
+
+
+def print_board():
+    for row in board:
+        print(('---').join(row))
+
+
+def get_row_col_from_cell(cell):
+    col = (int(cell % 3) - 1) % 3
+    row = int((cell - 1) / 3)
+    return (row, col)
+
+
+def is_occupied(move):
+    global board
+    (row, col) = get_row_col_from_cell(move)
+    if board[row][col] != ' ':
+        return True
     else:
-        print("thank you for inputing a digit")
-        break
-
-# Credit Comment:
-# https://youtu.be/BHh654_7Cmw?t=562
-# Step 0 Build Board
-board1 = [1, 2, 3]
-board2 = [4, 5, 6]
-board3 = [7, 8, 9]
-
-board = ["[ ]", "[ ]", "[ ]",
-         "[ ]", "[ ]", "[ ]",
-         "[ ]", "[ ]", "[ ]"]
-
-a = {x: print(board[x], board[(x+1)], board[(x+2)]) for x in range(0, 8, 3)}
-
-# Step 1 Check User Selection:
-print("User enter your move (1-9):")
-move2 = input("enter choice")
-print(board1)
-print(board2)
-print(board3)
-
-# Add print statement
-# https://www.askpython.com/python/examples/tic-tac-toe-using-python
+        return False
 
 
-def print_board(values):
-    print("\t  {}  |  {}   ".format(values[0], values[1]))
+def take_user_choice():
+    move = int(input('Enter number between 1-9: '))
+    if not move or move < 1 or move > 9:
+        print('Invalid input')
+        return take_user_choice()
+    elif is_occupied(move):
+        print('Already occupied')
+        return take_user_choice()
+    return move
 
 
-# print_board()
+def change_player_symbol():
+    global player_symbol
+    if player_symbol == 'X':
+        return 'O'
+    else:
+        return 'X'
 
 
-values = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5,
-          "f": 6, "g": 7, "h": 8, "i": 9}
-# Function to print Tic Tac Toe
-# def print_tic_tac_toe(values):
-print("\n")
-print('\t- - - - - - -')
-
-print("\t| {} | {} | {} |".format(values["a"], values["b"], values["c"]))
-print('\t- - + - + - -')
-
-print("\t| {} | {} | {} |".format(values["d"], values["e"], values["f"]))
-print('\t- - + - + - -')
+def start_game():
+    global player_symbol, board
+    while not is_game_over():
+        print_board()
+        player_symbol = change_player_symbol()
+        user_choice = take_user_choice()
+        (row, col) = get_row_col_from_cell(user_choice)
+        board[row][col] = player_symbol
 
 
-print("\t| {} | {} | {} |".format(values["g"], values["h"], values["i"]))
-print('\t- - - - - - -')
-
-print("\n")
-
-
-move = input("Please enter a number from 1 to 9: ")
-# format for next step:
-# values["a"] = move
-
-if (move == 1):
-    values["a"] = "[ X ]"
-    b = ["-"]
-    c = ["-"]
-    d = ["-"]
-    e = ["-"]
-    f = ["-"]
-    g = ["-"]
-    h = ["-"]
-    i = ["-"]
-elif (move == 2):
-    a = ["-"]
-    b = ["X"]
-    c = ["-"]
-    d = ["-"]
-    e = ["-"]
-    f = ["-"]
-    g = ["-"]
-    h = ["-"]
-    i = ["-"]
-elif (move == 3):
-    a = ["-"]
-    b = ["-"]
-    c = ["X"]
-    d = ["-"]
-    e = ["-"]
-    f = ["-"]
-    g = ["-"]
-    h = ["-"]
-    i = ["-"]
-elif (move == 4):
-    a = ["-"]
-    b = ["-"]
-    c = ["-"]
-    d = ["X"]
-    e = ["-"]
-    f = ["-"]
-    g = ["-"]
-    h = ["-"]
-    i = ["-"]
-
-elif (move == 5):
-    a = ["-"]
-    b = ["-"]
-    c = ["-"]
-    d = ["-"]
-    e = ["X"]
-    f = ["-"]
-    g = ["-"]
-    h = ["-"]
-    i = ["-"]
-elif (move == 6):
-    a = ["-"]
-    b = ["-"]
-    c = ["-"]
-    d = ["-"]
-    e = ["-"]
-    f = ["X"]
-    g = ["-"]
-    h = ["-"]
-    i = ["-"]
-
-elif (move == 7):
-    a = ["-"]
-    b = ["-"]
-    c = ["-"]
-    d = ["-"]
-    e = ["-"]
-    f = ["-"]
-    g = ["X"]
-    h = ["-"]
-    i = ["-"]
-
-elif (move == 8):
-    a = ["-"]
-    b = ["-"]
-    c = ["-"]
-    d = ["-"]
-    e = ["-"]
-    f = ["-"]
-    g = ["-"]
-    h = ["X"]
-    i = ["-"]
-
-elif (move == 9):
-    a = ["-"]
-    b = ["-"]
-    c = ["-"]
-    d = ["-"]
-    e = ["-"]
-    f = ["-"]
-    g = ["-"]
-    h = ["-"]
-    i = ["X"]
-
-print("\n")
-print('\t- - - - - - -')
-
-print("\t| {} | {} | {} |".format(values["a"], values["b"], values["c"]))
-print('\t- - + - + - -')
-
-print("\t| {} | {} | {} |".format(values["d"], values["d"], values["e"]))
-print('\t- - + - + - -')
+def take_user_name_input():
+    name = input("Enter Name ")
+    if not name:
+        return take_user_name_input()
+    else:
+        return name
 
 
-print("\t| {} | {} | {} |".format(values["f"], values["g"], values["h"]))
-print('\t- - - - - - -')
-
-print("\n")
-
-# while True:
-#     move = input()
-#     if not move.isdigit():
-#         continue
-#     else:
+def init_game():
+    name = take_user_name_input()
+    print("Name entered is : ", name)
+    start_game()
 
 
-# the input is a digit and we can move on
+init_game()
