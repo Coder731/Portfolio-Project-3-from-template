@@ -204,6 +204,8 @@ Image showing debugging using python tutor of subset of code dealing with checki
 Shows program exits as expected for three O's vertically in line, indicating this piece of code has been fixed.
 ![python_tutor_fixing_three_vertically.png](assets/images/python_tutor_fixing_three_vertically.png)
 
+Same python tutor debugging step as above, but showing the part of is game over function checking for three in a line vertically.
+![python_tutor_checking_three_o_vertically_with_code.png](assets/images/python_tutor_checking_three_o_vertically_with_code.png)
 
 ### Complex Bug
 Keywords for Error:
