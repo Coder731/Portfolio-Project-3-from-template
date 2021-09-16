@@ -86,9 +86,10 @@ It also documents:
 Many thanks to my mentor, Akshat Garg, for all the help on this and previous portfolio projects
 https://github.com/akshatnitd
 
-# Other Notes
 - link to [References](#README.md/Referneces) in README
 - link to [REFERENCES_unformatted.md](assets/documentation/supplementary_files_to_main_readme_file/non_testing_supplementary_files_for_main_readme/REFERENCES_unformatted.md)
+
+# Other Notes
 
 ## Multiple README files Explanation
 There are currently 3 README files:
@@ -148,21 +149,17 @@ pathspec==0.9.0
 regex==2021.8.28
 tomli==1.2.1
 
-## Phase 3 Board Display
+### Phase 3 Board Display
 - Add vertical lines (pipes) between squares horizontally
 - Add underscores between squares vertically
 
-## Phase 4 Display two sequential boards
+### Phase 4 Display two sequential boards
 - Board A
     - Present choice to user
 - Board B
     - Display user choice
 
-## ToDo
-1. Add lines and remove brackets and commas from current board
-2. Add second board
-
-## Debuggimg
+## Debugging
  ### Bug Brackets displaying on board
  Description
  - Brackets displaying
@@ -242,7 +239,6 @@ Attempted Solution:
 
 ### Code Institute Resources .
 
-
 - [Code Institute Google Sheets Template used from love-sandwiches Walkthrough Project](https://docs.google.com/spreadsheets/d/1PeSOxAPuFnZlonXcPCMv5msKfiISvuaEJXkcrs-HsVw/edit#gid=1680754323)
     #### Code Institute Internal LMS Notes Used
     - Taking User Input / Reading Data From a Use
@@ -261,4 +257,3 @@ Attempted Solution:
 
 #### pep8online
 - [PEP8 online](pep8online.com)
-

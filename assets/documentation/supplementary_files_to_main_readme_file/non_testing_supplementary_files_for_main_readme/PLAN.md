@@ -7,6 +7,10 @@ this would created nested while loops
 
 Consider player 1 player 2
 
+## ToDo
+1. Add lines and remove brackets and commas from current board
+2. Add second board
+
 ## Deprecated: This Step: Add assignment for incorporating user choice into board
 
 use code:
