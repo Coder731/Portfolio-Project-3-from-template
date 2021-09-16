@@ -78,7 +78,6 @@ def is_game_over():
 
 def print_board():
     for row in board:
-        print("TEST2: row: ", row)
         print(('---').join(row))
 
 

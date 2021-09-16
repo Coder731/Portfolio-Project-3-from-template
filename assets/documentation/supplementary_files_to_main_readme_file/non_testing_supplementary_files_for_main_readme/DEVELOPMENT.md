@@ -105,3 +105,7 @@ Solved Using:
 
     - Note:
         - [type method()](https://www.tutorialsteacher.com/python/type-method)
+
+- run 16 py 
+    - Need to display board after winning board
+    - and add messages such as "You Win!"

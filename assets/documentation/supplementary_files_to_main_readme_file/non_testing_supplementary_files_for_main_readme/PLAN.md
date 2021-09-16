@@ -33,3 +33,6 @@ add logic for three in a line (row/col/diagonal)
 - Change for loop index from r in board, which is a list [" ", " ", " "]
     - to a counter
     - use range(len(board))
+
+## Step 3:
+- Display board after winning board

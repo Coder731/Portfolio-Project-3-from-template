@@ -1,3 +1,62 @@
+# Introduction
+
+This project is a tic tac toe game.
+The developmenmt is documnented here and other markdown files are linked out to also.
+
+# User stories
+
+This is designed for users to plya tic tac toe.
+
+It also documents:
+	- lessons I learned about python during the project
+	- bugs encountered during development
+	- the approach I took to building my first python project
+
+# Features
+- board, shown as game is progressing [game_running_in_terminal.png](assets/images/game_running_in_terminal.png)
+
+- The board displayed to the user is a list of lists
+## Image of board
+- ![image_of_board.png](assets/images/image_of_board.png)
+
+
+# Tech stack
+- python
+	- [python.org](https://www.python.org/dev/peps/pep-0008/)
+	- [Python on pythontutor.com](http://pythontutor.com/visualize.html#mode=edit)
+	- [PEP8 Python code linter](https://pep8.org/)
+	- [PEP8 online](pep8online.com)
+- [Heroku](https://dashboard.heroku.com/apps)
+	- [about Heroku](https://en.wikipedia.org/wiki/Heroku)
+- [Emmet — the essential toolkit for web-developers](https://emmet.io/)
+- [gitpod](https://gitpod.io/workspaces/)
+	- [gitpod was originally released based on Eclipse Theia, but now uses Visual Studio](https://en.wikipedia.org/wiki/Eclipse_Theia#Usage)
+	- [gitpod.io/about](https://www.gitpod.io/about/)
+- [GitHub](https://github.com/)
+	- [about GitHub](https://en.wikipedia.org/wiki/GitHub)
+	- [github.com/about](https://github.com/about)
+- Visual Studio Code
+
+# Testing
+- [TESTING](assets/documentation/supplementary_files_to_main_readme_file/testing_files/TESTING.md)
+- [TESTING2](assets/documentation/supplementary_files_to_main_readme_file/testing_files/testing2_excluded_debug_files/TESTING2_excluded_debug.md)
+- [TESTING3](assets/documentation/supplementary_files_to_main_readme_file/testing_files/TESTING3.md)
+- [TESTING4](assets/documentation/supplementary_files_to_main_readme_file/testing_files/TESTING4.md)
+
+# Deployment
+- Used template from Code Institute to allow python backend application to have a pre-built front-end to allow ease of running for the user
+- Heroku was used to deploy site
+- Variable PORT was set to 8000
+- Added Python then node.js
+
+# Acknowledgement
+Many thanks to my mentor, Akshat Garg, for all the help on this and previous portfolio projects
+https://github.com/akshatnitd
+
+# Other Notes
+- link to [References](#README.md/Referneces) in README
+- link to [REFERENCES_unformatted.md](assets/documentation/supplementary_files_to_main_readme_file/non_testing_supplementary_files_for_main_readme/REFERENCES_unformatted.md)
+
 ## Multiple README files Explanation
 There are currently 3 README files:
 1. This one, README.md is the main README here in root directory
@@ -115,10 +174,7 @@ Attempted Solution:
 - Potentially in code for run16 py and previous versions x and y should be reversed, but for the sake of time these will be left as is.
 - run11 py has 2 problems with the linter
 
-## Image of board
-- ![image_of_board.png](assets/images/image_of_board.png)
-
-## References
+## References <a id = "README.md/Referneces"></a>
 ### Tutorials
 - Board setup [Python for absolute beginners 2019 - TIC TAC TOE project (+Special Appearance!)](https://youtu.be/BHh654_7Cmw?t=562)
 
@@ -137,4 +193,39 @@ Attempted Solution:
 
 ## Flake Reference
 - [flake8](https://pypi.org/project/flake8/)
+
+## Own previous projects used
+- [Portfolio_Project_1](https://github.com/Coder731/Portfolio_Project_1)
+- [Profile_Project_2](https://github.com/Coder731/Profile_Project_2)
+
+## Pevious version of this Project (before using template)
+- [Portfolio_Project_3](https://github.com/Coder731/Portfolio_Project_3)
+
+### References from old version of Portfolio_Project_3 
+- [Python for absolute beginners 2019 - TIC TAC TOE project (+Special Appearance!)](https://youtu.be/BHh654_7Cmw?t=1065)
+
+## Stack OverFlow Resources Used
+- Used print f string to display request for user input [Tic tac toe program user input correction needed](https://stackoverflow.com/questions/24973656/tic-tac-toe-program-user-input-correction-needed)
+
+### Code Institute Resources .
+
+
+- [Code Institute Google Sheets Template used from love-sandwiches Walkthrough Project](https://docs.google.com/spreadsheets/d/1PeSOxAPuFnZlonXcPCMv5msKfiISvuaEJXkcrs-HsVw/edit#gid=1680754323)
+    #### Code Institute Internal LMS Notes Used
+    - Taking User Input / Reading Data From a Use
+
+## Templates used
+- [Code-Institute-Org/python-essentials-template](https://github.com/Code-Institute-Org/python-essentials-template)
+
+## Miscellaneous References
+- [Emmet — the essential toolkit for web-developers](https://emmet.io/)
+
+- [python.org](https://www.python.org/dev/peps/pep-0008/)
+- [Python on pythontutor.com](http://pythontutor.com/visualize.html#mode=edit)
+#### PEP8
+
+- [PEP8 Python code linter](https://pep8.org/)
+
+#### pep8online
+- [PEP8 online](pep8online.com)
 
