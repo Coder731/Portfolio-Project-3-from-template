@@ -47,6 +47,11 @@ It also documents:
 
 # Deployment
 - Used template from Code Institute to allow python backend application to have a pre-built front-end to allow ease of running for the user
+- Followed Code Institue instructions for Deployment
+- updated requirements.txt file using terminal command:
+	- pip3 freeze > requirements.txt
+	- Heroku uses this file to deploy
+- used requirements.txt file to record dependencies
 - Heroku was used to deploy site
 - Variable PORT was set to 8000
 - Added Python then node.js
