@@ -233,6 +233,21 @@ Error Further Information:
 Attempted Solution:
 - Searched error
 
+
+### RecursionError Bug
+Problem: maximum recursion depth exceeded
+Steps to recreate:
+Trying to print final board after a player wins
+	- added two functions:
+		- interim
+		  and
+		- print_final_board
+	- added two if conditons from print_final_board to print_board
+	- ran program run.py in terminal
+Image of feedback from terminal:
+![recursion_error.png](assets/images/recursion_error.png)
+
+
 ## Note on Development
 - Began with run py 
 - With certain changes, run py file was duplicated and number incremented by one

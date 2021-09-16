@@ -11,6 +11,7 @@ board = [
 
 
 player_symbol = 'O'
+game_is_over = False
 
 
 def is_game_over():
@@ -30,6 +31,7 @@ def is_game_over():
                 and board[2][y] == 'X') or (board[0][y] == board[1][y]
                                             and board[1][y] == board[2][y]
                                             and board[2][y] == 'O'):
+            interim()
             return True
 
     # Check for 3 in a line diagonally
@@ -65,7 +67,12 @@ def is_game_over():
 def print_board():
     for row in board:
         print(('---').join(row))
-
+    if game_is_over is True:
+            print(board)
+            print(f"{player_symbol} wins")
+    if interim() is True:
+        print(board)
+        print(f"{player_symbol} wins")
 
 def get_row_col_from_cell(cell):
     col = (int(cell % 3) - 1) % 3
@@ -134,6 +141,24 @@ def init_game():
     name = take_user_name_input()
     print("Name entered is : ", name)
     start_game()
+
+
+def interim():
+    print_final_board()
+    # https://stackoverflow.com/questions/32301512/how-to-set-a-global-variable-in-python
+    global game_is_over
+    game_is_over = True
+    return True
+
+
+def print_final_board():
+    if game_is_over is True:
+        print(board)
+        print(f"{player_symbol} wins")
+
+    if interim() is True:
+        print(board)
+        print(f"{player_symbol} wins")
 
 
 init_game()
