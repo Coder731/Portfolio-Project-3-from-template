@@ -45,12 +45,17 @@ def is_game_over():
             return True
 
     # Check for 3 in a line diagonally
-    if (board[0][0] == board[1][1]
+    if ((board[0][0] == board[1][1]
         and board[1][1] == board[2][2]
-            and board[2][2] == ('X' or 'O')) or \
+            and board[2][2] == 'X') or
             (board[0][2] == board[1][1]
                 and board[1][1] == board[2][0]
-                and board[2][0] == ('X' or 'O')):
+                and board[2][0] == 'X')) or (board[0][0] == board[1][1]
+                                             and board[1][1] == board[2][2]
+                                             and board[2][2] == 'O') or \
+                                            (board[0][2] == board[1][1]
+                                             and board[1][1] == board[2][0]
+                                             and board[2][0] == 'O'):
         return True
 
     # Check if there no space left
