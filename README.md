@@ -20,7 +20,7 @@ It also documents:
 
 - The board displayed to the user is a list of lists
 ## Image of board
-- ![image_of_board.png](assets/images/image_of_board.png)
+![image_of_board.png](assets/images/image_of_board.png)
 
 
 # Tech stack
@@ -75,13 +75,14 @@ It also documents:
 			- searched for GitHub Repository name
 				- Clicked Search and Connect
 				- Used Manual Deploy
-					- ![manual_deploy.png](assets/images/manual_deploy.png)
+![manual_deploy.png](assets/images/manual_deploy.png)
 					- Periodically redeployed during development
 		- Clicked View to go to deployed link
 	- Run Program button present, but program started automatically
+	- tictactoe running on Heroku:
+![tictactoe_running_on_heroku.png](assets/images/tictactoe_running_on_heroku.png)
 
-
-- ![Heroku deployment](assets/images/heroku__deployment.png)
+![Heroku deployment](assets/images/heroku__deployment.png)
 
 # Acknowledgement
 Many thanks to my mentor, Akshat Garg, for all the help on this and previous portfolio projects
