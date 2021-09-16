@@ -234,7 +234,7 @@ Attempted Solution:
 - Searched error
 
 
-### RecursionError Bug
+### RecursionError Bug [Resolved]
 Problem: maximum recursion depth exceeded
 Steps to recreate:
 Trying to print final board after a player wins
@@ -261,6 +261,13 @@ Image of feedback from terminal:
 ![Debugging EOFError](assets/images/debugging_eoferror.png)
 - Potential Solution
 	- Could use try catch exception handling
+- Next Step
+	- Cut interim function
+New error: interim function name error
+![interim name error](assets/images/interim_name_error.png)
+- Next Step:
+	- Remove all interim function calls
+- Bug has been Resolved
 
 
 ## Note on Development
