@@ -63,6 +63,14 @@ grid high contrast to ASCII image:
 
 ![grid high contrast to ASCII image](assets/images/grid_high_contrast_to_ascii.png)
 
+image of single square in 3 by 3 grid:
+
+![single square in 3 by 3 grid](assets/images/square.png)
+
+image of ASCII version of single square in 3 by 3 grid
+
+![image of ASCII version of single square in 3 by 3 grid](assets/images/square_to_ascii.png)
+
 # Tech stack
 - python
 	- [python.org](https://www.python.org/dev/peps/pep-0008/)

@@ -2,7 +2,7 @@
 # Turn any image into ASCII art! (Easy Python PIL Tutorial)
 
 import PIL.Image
-from PIL import Image
+
 # ascii characters used to build the output text
 
 ASCII_CHARS = ["@", "#", "S", "%", "?", "*", "+", ";", ":", ",", "."]
