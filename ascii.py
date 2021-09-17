@@ -1,3 +1,7 @@
+# Credit Comment
+
+# The code in this file is taken from the following walkthrough tutorial:
+
 # https://youtu.be/v_raWlX7tZY?t=63
 # Turn any image into ASCII art! (Easy Python PIL Tutorial)
 

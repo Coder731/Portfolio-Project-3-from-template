@@ -39,38 +39,6 @@ Heroku Deployed Project Running: mid-game:
 ## Image of board
 ![image_of_board.png](assets/images/image_of_board.png)
 
-## Image used to make ASCII Art board
-Used Microsoft PowerPoint to create a 3 by 3 grid:
-
-![grid](assets/images/grid.png)
-
-used ascii.py file
-from:
-[this tutorial](https://youtu.be/v_raWlX7tZY)
-to convert above image to ASCII Art shown below:
-
-ASCII Art Image of 3 by 3 grid:
-
-![ASCII Art Image](assets/images/grid_to_ascii.png..png)
-
-Recoloured original image black and white for higher contrast:
-
-grid high contrast image:
-
-![grid high contrast image](assets/images/grid_high_contrast.png)
-
-grid high contrast to ASCII image:
-
-![grid high contrast to ASCII image](assets/images/grid_high_contrast_to_ascii.png)
-
-image of single square in 3 by 3 grid:
-
-![single square in 3 by 3 grid](assets/images/square.png)
-
-image of ASCII version of single square in 3 by 3 grid
-
-![image of ASCII version of single square in 3 by 3 grid](assets/images/square_to_ascii.png)
-
 # Tech stack
 - python
 	- [python.org](https://www.python.org/dev/peps/pep-0008/)
@@ -409,6 +377,38 @@ Solution:
 	- set game_is_over variable to True
 	- call print_board() function
 
+## Attempt to Incorporate ASCII Art
+### Image used to make ASCII Art board
+Used Microsoft PowerPoint to create a 3 by 3 grid:
+
+![grid](assets/images/grid.png)
+
+used ascii.py file
+from:
+[this tutorial](https://youtu.be/v_raWlX7tZY)
+to convert above image to ASCII Art shown below:
+
+ASCII Art Image of 3 by 3 grid:
+
+![ASCII Art Image](assets/images/grid_to_ascii.png)
+
+Recoloured original image black and white for higher contrast:
+
+grid high contrast image:
+
+![grid high contrast image](assets/images/grid_high_contrast.png)
+
+grid high contrast to ASCII image:
+
+![grid high contrast to ASCII image](assets/images/grid_high_contrast_to_ascii.png)
+
+image of single square in 3 by 3 grid:
+
+![single square in 3 by 3 grid](assets/images/square.png)
+
+image of ASCII version of single square in 3 by 3 grid
+
+![image of ASCII version of single square in 3 by 3 grid](assets/images/square_to_ascii.png)
 
 ## Note on Development
 - Began with run py 
