@@ -181,6 +181,8 @@ https://github.com/akshatnitd
 # Credits
 ## Tutorial Used for Software to make ASCII
 - ascii.py file taken from: [Turn any image into ASCII art! (Easy Python PIL Tutorial)](https://youtu.be/v_raWlX7tZY)
+## Tutorial for ASCII TicTacToe in python
+- [Making ascii Tic-Tac-Toe in Python](https://youtu.be/x4wT_fESYtg)
 
 - link to [References](#README.md/Referneces) in README
 - link to [REFERENCES_unformatted.md](assets/documentation/supplementary_files_to_main_readme_file/non_testing_supplementary_files_for_main_readme/REFERENCES_unformatted.md)
