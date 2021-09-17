@@ -3,6 +3,9 @@
 # on this and previous portfolio projects
 # https://github.com/akshatnitd
 
+# https://grabthiscode.com/python/how-to-import-random-in-python
+import random
+
 board = [
         [' ', ' ', ' '],
         [' ', ' ', ' '],
@@ -123,6 +126,19 @@ def change_player_symbol():
         return 'X'
 
 
+# Computer moves
+# Level 1
+# Random
+# https://www.w3schools.com/python/gloss_python_random_number.asp
+def computer_choice():
+    computer_selection = random.randrange(1, 10)
+    if player_symbol == 'O':
+        if is_occupied(computer_selection) is True:
+            return computer_choice()
+        elif is_occupied(computer_selection) is False:
+            start_game()
+
+
 def start_game():
     global player_symbol, board
     while not is_game_over():
@@ -131,6 +147,7 @@ def start_game():
         user_choice = take_user_choice()
         (row, col) = get_row_col_from_cell(user_choice)
         board[row][col] = player_symbol
+        computer_choice()
 
 
 def take_user_name_input():
