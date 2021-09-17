@@ -39,6 +39,29 @@ Heroku Deployed Project Running: mid-game:
 ## Image of board
 ![image_of_board.png](assets/images/image_of_board.png)
 
+## Image used to make ASCII Art board
+Used Microsoft PowerPoint to create a 3 by 3 grid:
+
+![grid](assets/images/grid.png)
+
+used ascii.py file
+from:
+[this tutorial](https://youtu.be/v_raWlX7tZY)
+to convert above image to ASCII Art shown below:
+
+ASCII Art Image of 3 by 3 grid:
+
+![ASCII Art Image](assets/images/grid_to_ascii.png..png)
+
+Recoloured original image black and white for higher contrast:
+
+grid high contrast image:
+
+![grid high contrast image](assets/images/grid_high_contrast.png)
+
+grid high contrast to ASCII image:
+
+![grid high contrast to ASCII image](assets/images/grid_high_contrast_to_ascii.png)
 
 # Tech stack
 - python
@@ -146,6 +169,10 @@ Step e: Site Deployed on GitHub
 # Acknowledgement
 Many thanks to my mentor, Akshat Garg, for all the help on this and previous portfolio projects
 https://github.com/akshatnitd
+
+# Credits
+## Tutorial Used for Software to make ASCII
+- ascii.py file taken from: [Turn any image into ASCII art! (Easy Python PIL Tutorial)](https://youtu.be/v_raWlX7tZY)
 
 - link to [References](#README.md/Referneces) in README
 - link to [REFERENCES_unformatted.md](assets/documentation/supplementary_files_to_main_readme_file/non_testing_supplementary_files_for_main_readme/REFERENCES_unformatted.md)
@@ -438,3 +465,22 @@ Solution:
 
 #### pep8online
 - [PEP8 online](pep8online.com)
+
+### image compression
+- [tiny png](https://tinypng.com/)
+
+### Ascii Art
+- [ASCII Art Tips & Tricks](https://youtu.be/V9cRLasYC_Y?t=102)
+- [Turn any image into ASCII art! (Easy Python PIL Tutorial)](https://youtu.be/v_raWlX7tZY?t=70)
+- [ASCII Art](https://ascii.co.uk/)
+
+### Dependency References
+
+- [pillow / Installation](https://pillow.readthedocs.io/en/stable/installation.html)
+	Command Line Interface Commands:
+	- python3 -m pip install --upgrade pip
+	- python3 -m pip install --upgrade Pillow
+
+# Credits
+## Tutorial Used for Software to make ASCII
+- ascii.py file taken from: [Turn any image into ASCII art! (Easy Python PIL Tutorial)](https://youtu.be/v_raWlX7tZY)
