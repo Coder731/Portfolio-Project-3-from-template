@@ -30,6 +30,9 @@ Heroku Deployed Project Running: mid-game:
 
 ![Heroku Deployed Project Running mid-game](assets/images/heroku_deployed_project_running_b.png)
 
+Responsiveness Check:
+- ![ami.responsive](assets/images/responsive.png)
+- [ami.responsivedesign](http://ami.responsivedesign.is/#)
 
 	- running in terminal
 
