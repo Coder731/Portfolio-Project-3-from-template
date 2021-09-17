@@ -1,0 +1,38 @@
+Use this to design square in ASCII art 
+that is small enough to fit in restrictions
+
+Rough Work:
+
+single blank square unit in 
+3 by 3 grid:
+
+@@@@@
+@   @
+@   @
+@   @
+@@@@@
+
+single X square:
+
+version 1 (discarded):
+X   X
+ X X
+  X
+ X X
+X   X
+
+version 2 :
+@@@@@
+@\ /@
+@ X @
+@/ \@
+@@@@@
+
+single O square:
+@@@@@
+@ _ @
+@|n|@
+@|U|@
+@@@@@
+
+
